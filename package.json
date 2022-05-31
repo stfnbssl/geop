@@ -1,0 +1,32 @@
+{
+  "name": "geop",
+  "version": "0.0.1",
+  "description": "Database of historical and geopolitical concepts and data",
+  "main": "wizzi.config.js",
+  "dependencies": {
+    "wizzi": "^0.7.22",
+    "wizzi-core": "^0.7.3",
+    "wizzi-js": "^0.7.8",
+    "wizzi-web": "^0.7.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stfnbssl/geop.git"
+  },
+  "keywords": [
+    "wizzi",
+    "philosophy",
+    "history",
+    "geopolitics"
+  ],
+  "author": "Stefano Bassoli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stfnbssl/geop/issues"
+  },
+  "homepage": "https://github.com/stfnbssl/geop#readme"
+}

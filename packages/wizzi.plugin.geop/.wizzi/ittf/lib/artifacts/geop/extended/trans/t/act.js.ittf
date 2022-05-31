@@ -1,0 +1,25 @@
+$group
+
+    set functors.act
+        function
+            param parent
+            param resultObj
+            param kind
+            var actObj
+                {
+                    @ id parent.wzName
+                    @ kind kind || 'act'
+                    @ ns g_namespace
+                    [ contents
+            var newitems = []
+            foreach child in parent.items
+
+                if !titleDateWikiContents(child, actObj, resultObj)
+                else
+                    set actObj['unknown_tag_' + child.wzElement] = child.wzName         
+            if !actObj.title
+                set actObj.title
+                    {
+                        @ text actObj.id
+            _ resultObj.acts.push
+                @ actObj

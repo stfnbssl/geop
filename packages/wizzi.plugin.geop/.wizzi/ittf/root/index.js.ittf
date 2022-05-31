@@ -1,0 +1,44 @@
+v07/plugin/index( geop )
+
+	$append model-transform-artifacts
+		# window(s) vars must be declared even if empty
+		var window_modelFactories
+			{
+				@ 'geop' require('./lib/wizzi/models/geop-factory.g')
+		var window_artifactGenerators
+			{
+				@ 'geop/document' require('./lib/artifacts/geop/document/gen/main')
+		var window_transformers
+			{
+				@ 'geop/extended' require('./lib/artifacts/geop/extended/trans/main')
+		var window_schemaDefinitions
+			{
+
+	@ provides
+		{
+			@ schemas
+				[
+					@ 'geop'
+			@ modelTransformers
+				[
+                    @ 'geop/extended'
+			@ artifactGenerators
+				[
+					@ 'geop/document'
+
+	@ provides
+		{
+			@ schemas
+				[
+                    $foreach schema in pkg.Schema.items
+                        @ '${schema.name}'
+			@ modelTransformers
+				[
+                    $foreach schema in pkg.Schema.items
+                        $foreach trans in schema.modelTransformers
+                            @ '${schema.name}/${trans.name}'
+			@ artifactGenerators
+				[
+                    $foreach schema in pkg.Schema.items
+                        $foreach artifact in schema.artifactGenerators
+                            @ '${schema.name}/${artifact.name}'

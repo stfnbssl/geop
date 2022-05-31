@@ -1,0 +1,8 @@
+$group
+
+    $include .\agents
+    $include .\events
+    $include .\jus
+    $include .\kings
+    $include .\periods
+    $include .\treaties

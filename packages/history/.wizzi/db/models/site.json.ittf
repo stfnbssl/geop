@@ -1,0 +1,28 @@
+{
+    $
+        var baseURL = ".";
+        // var baseURL = "http://127.0.0.1:5500/geop";
+        // var baseURL = "https://stfnbssl.github.io/geop";
+
+    baseURL "${baseURL}"
+    assetsURL "${baseURL}/assets"
+    jsonURL "${baseURL}/json"
+    languageCode "it-it"
+
+    { Params
+        name "GeopResources"
+        description "Risorse varie per progetto Geop"
+        author "Stefano Bassoli"
+        email "stfn.bssl@gmail.com"
+        phone "---"
+        address "---"
+        year 2020
+        logoText "by Stefano"
+
+    { Features
+        features()
+    
+    { Styles
+        styles()
+    
+    { Data

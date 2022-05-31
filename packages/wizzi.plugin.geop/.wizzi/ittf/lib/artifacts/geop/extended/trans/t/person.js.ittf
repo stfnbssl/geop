@@ -1,0 +1,59 @@
+$group
+
+    set functors.king
+        function
+            param parent
+            param resultObj
+            _  functors.person
+                @ parent
+                @ resultObj
+                @ 'king'
+
+    set functors.pretender
+        function
+            param parent
+            param resultObj
+            _  functors.person
+                @ parent
+                @ resultObj
+                @ 'pretender'
+
+    set functors.minister
+        function
+            param parent
+            param resultObj
+            _  functors.person
+                @ parent
+                @ resultObj
+                @ 'minister'
+
+    set functors.person
+        function
+            param parent
+            param resultObj
+            param kind
+            var personObj
+                {
+                    @ id parent.wzName
+                    @ kind kind || 'person'
+                    @ ns g_namespace
+                    [ contents
+            var newitems = []
+            foreach child in parent.items
+                if !titleDateWikiContents(child, personObj, resultObj)
+                elif child.wzElement == "born"
+                    set personObj.born = child.wzName
+                elif child.wzElement == "died"
+                    set personObj.died = child.wzName
+                elif child.wzElement == "house"
+                    set personObj.house = child.wzName
+                elif child.wzElement == "inCharge"
+                    set personObj.date = personObj.inCharge = createDate(child)
+                else
+                    set personObj['unknown_tag_' + child.wzElement] = child.wzName                
+            if !personObj.title
+                set personObj.title
+                    {
+                        @ text personObj.id
+            _ resultObj.persons.push
+                @ personObj

@@ -1,0 +1,3275 @@
+<!--
+    artifact generator: C:\My\wizzi\stfnbssl\geop\node_modules\wizzi-web\lib\artifacts\html\document\gen\main.js
+    package: wizzi-web@0.7.9
+    primary source IttfDocument: C:\My\wizzi\stfnbssl\geop\packages\history\.wizzi\docs\anteprima.html.ittf
+-->
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <title>My Material-UI example page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.1/css/ionicons.min.css" />
+    <style>
+        .root {
+            padding: 10px;
+        }
+        .paper {
+            max-height: 90%;
+            max-width: 800px;
+            padding: 40px;
+            overflow: auto;
+        }
+        .a-img-list {
+            width: 30px;
+            height: 34px;
+        }
+        .a-img-box-list {
+            padding: 10px;
+            float: left;
+            border-right: 1px solid gray;
+        }
+        .a-left-list {
+            padding: 10px;
+            float: left;
+        }
+        .a-d-img {
+            padding: 10px;
+            float: left;
+        }
+        .a-d-born {
+            padding: 10px;
+            float: left;
+        }
+        .a-d-born-label {
+            padding: 10px;
+            font-weight: bold;
+            font-size: small;
+        }
+        .a-d-born-text {
+            padding: 10px;
+            float: left;
+        }
+        .li-title {
+            padding: 10px;
+            float: left;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        .li-id {
+            padding: 10px;
+            float: right;
+            font-size: 9px;
+        }
+        .li-clear {
+            clear: both;
+        }
+        .li-c-title {
+            padding: 4px;
+            float: left;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        .li-c-id {
+            padding: 4px;
+            float: right;
+            font-size: 9px;
+        }
+        .bar {
+            margin-bottom: 20px;
+        }
+        .bar-arrow-left {
+            padding: 15px 0px;
+            float: left;
+            cursor: pointer;
+        }
+        .bar-arrow-left-img {
+            width: 30px;
+            height: 20px;
+        }
+        .bar-title {
+            padding: 10px;
+            float: left;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .bar-id {
+            padding: 10px;
+            float: right;
+            font-size: 9px;
+        }
+        .rc-box {
+            border-left: 1px solid gray;
+            margin: 0.5em 1em;
+        }
+        .rc-ref {
+            font-style: italic;
+            font-size: 0.75em;
+            padding-left: 10px;
+        }
+        .rc-ref-pointer {
+            font-style: italic;
+            font-size: 0.75em;
+            padding-left: 10px;
+            cursor: pointer;
+        }
+        .rc-content {
+            padding-left: 20px;
+        }
+        .alias-label {
+            float: left;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+        .alias-text-box {
+            float: left;
+            border-left: 1px solid gray;
+            padding-left: 10px;
+        }
+        .alias-text {
+            font-style: italic;
+            font-size: 0.75em;
+        }
+        .abstract-title {
+            font-weight: bold;
+        }
+        .abstract-box {
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .quote-comment-box {
+            background-color: #dedede;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 0.85em;
+            font-style: normal;
+        }
+        .quotes-title {
+            font-weight: bold;
+        }
+        .quotes-box {
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .quotes-concept-id {
+            font-size: 0.75em;
+        }
+        .info-box {
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .info-item-box {
+            border-bottom: 1px solid #ededed;
+        }
+        .info-item-label {
+            font-size: 0.75em;
+        }
+        .info-item-text {
+            font-style: italic;
+        }
+        @media (min-width:1024px) {
+            .info-box {
+                width: 50%;
+                padding: 40px;
+            }
+            .abstract-box {
+                width: 50%;
+                padding: 40px;
+            }
+            .quotes-box {
+                width: 50%;
+                padding: 40px;
+            }
+        }
+        blockquote {
+            border-left: 3px solid #00CC8F;
+            color: #1a1a1a;
+            padding: 1em 2em;
+            position: relative;
+            -webkit-transition: .2s border ease-in-out;
+            -moz-transition: .2s border ease-in-out;
+            -o-transition: .2s border ease-in-out;
+            transition: .2s border ease-in-out;
+            z-index: 0;
+            margin-left: 20px;
+        }
+        blockquote:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -4px;
+            height: 2em;
+            background-color: #fff;
+            width: 5px;
+            margin-top: -1em;
+        }
+        blockquote:after {
+            content: "\f35f";
+            position: absolute;
+            top: 50%;
+            left: -0.5em;
+            color: $color;
+            font-family: "Ionicons";
+            font-style: normal;
+            line-height: 1em;
+            text-align: center;
+            text-indent: -2px;
+            width: 1em;
+            margin-top: -0.5em;
+            -webkit-transition: .2s all ease-in-out, .4s transform ease-in-out;
+            -moz-transition: .2s all ease-in-out, .4s transform ease-in-out;
+            -o-transition: .2s all ease-in-out, .4s transform ease-in-out;
+            transition: .2s all ease-in-out, .4s transform ease-in-out;
+        }
+        cite {
+            display: block;
+            font-size: 0.75em;
+            line-height: 1.8em;
+            margin-top: 1em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@latest/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@material-ui/core/umd/material-ui.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js"></script>
+    <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
+    <script src="./assets/js/classnames/classnames.js"></script>
+    <script type="text/babel">
+        function loadJSON(jsonpath, callback) {
+            var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+            xobj.open('GET', jsonpath, true);
+            xobj.onreadystatechange = function() {
+                
+                // .open will NOT return a value but simply returns undefined in async mode so use a callback
+                if (xobj.readyState == 4 && xobj.status == "200") {
+                    callback(xobj.responseText);
+                }
+            }
+            ;
+            xobj.send(null);
+        }
+        function compareById(a, b) {
+            if (a.id < b.id) {
+                return -1;
+            }
+            if (a.id > b.id) {
+                return 1;
+            }
+            return 0;
+        }
+        function compareByDatePub(a, b) {
+            if (a.datepub < b.datepub) {
+                return -1;
+            }
+            if (a.datepub > b.datepub) {
+                return 1;
+            }
+            return 0;
+        }
+        function compareQuotes(a, b) {
+            var pageA = a.quote.page;
+            var pageB = b.quote.page;
+            if (pageA < pageB) {
+                return -1;
+            }
+            if (pageA > pageB) {
+                return 1;
+            }
+            return 0;
+        }
+        function compareByDate(a, b) {
+            const dateA = a.date && a.date.start ? a.date.start : a.date;
+            const dateB = b.date && b.date.start ? b.date.start : b.date;
+            if (dateA < dateB) {
+                return -1;
+            }
+            if (dateA > dateB) {
+                return 1;
+            }
+            return 0;
+        }
+    </script>
+    <script type="text/babel">
+        function dbGetArticleQuotes(id, dbParam) {
+            var quotes = [];
+            var i, i_items=dbParam.concepts, i_len=dbParam.concepts.length, c;
+            for (i=0; i<i_len; i++) {
+                c = dbParam.concepts[i];
+                if (c.contents) {
+                    var j, j_items=c.contents, j_len=c.contents.length, item;
+                    for (j=0; j<j_len; j++) {
+                        item = c.contents[j];
+                        if (item.quote && item.quote.article == id) {
+                            console.log('dbGetArticleQuotes', c.id);
+                            quotes.push({
+                                concept: c, 
+                                quote: item.quote
+                             })
+                        }
+                    }
+                }
+            }
+            return quotes;
+        }
+        function dbGetById(coll, id) {
+            return coll.find((item) => {
+                
+                    return item.id == id;
+                }
+                );
+        }
+        function dbGetAuthor(id, dbParam) {
+            var db = dbParam || gJsonData;
+            console.log('dbGetAuthor', id);
+            return dbGetById(db.authors, id);
+        }
+        function dbGetConcept(id, dbParam) {
+            var db = dbParam || gJsonData;
+            return dbGetById(db.concepts, id);
+        }
+        function dbGetArticle(id, dbParam) {
+            var db = dbParam || gJsonData;
+            return dbGetById(db.articles, id);
+        }
+        function dbGetBook(id, dbParam) {
+            var db = dbParam || gJsonData;
+            return dbGetById(db.books, id);
+        }
+        function dbGetAuthors(authorIdColl, dbParam) {
+            var db = dbParam || gJsonData;
+            var authorObjColl = [];
+            var i, i_items=authorIdColl, i_len=authorIdColl.length, item;
+            for (i=0; i<i_len; i++) {
+                item = authorIdColl[i];
+                var aObj = dbGetAuthor(item, dbParam);
+                if (!aObj) {
+                    aObj = {
+                        id: item.id, 
+                        fullname: 'missing author info'
+                     };
+                }
+                authorObjColl.push(aObj)
+            }
+            return authorObjColl;
+        }
+        function dbExtractTitleText(title, defaultValue) {
+            if (!title) {
+                return defaultValue;
+            }
+            return title.text || defaultValue;
+        }
+        function dbFilterIdAndTitle(item, searchText) {
+            if (!searchText || searchText.length == 0) {
+                return true;
+            }
+            if (item.id.indexOf(searchText) > -1) {
+                return true;
+            }
+            var titleText = dbExtractTitleText(item);
+            if (titleText && titleText.indexOf(searchText) > -1) {
+                return true;
+            }
+        }
+        function dbFilterIdAndTitleState(item, searchText, selectedState) {
+            if (item.ns != 'states.' + selectedState) {
+                return false;
+            }
+            if (!searchText || searchText.length == 0) {
+                return true;
+            }
+            if (item.id.indexOf(searchText) > -1) {
+                return true;
+            }
+            var titleText = dbExtractTitleText(item);
+            if (titleText && titleText.indexOf(searchText) > -1) {
+                return true;
+            }
+        }
+    </script>
+    <script type="text/babel">
+        console.log("MaterialUI", MaterialUI);
+        const ReactRouterDOM = window.ReactRouterDOM;
+        const classnames = window.classNames;
+        const {
+            colors, 
+            createGenerateClassName, 
+            createMuiTheme, 
+            createStyles, 
+            fade, 
+            makeStyles, 
+            jssPreset, 
+            MuiThemeProvider, 
+            withStyles, 
+            withTheme, 
+            AppBar, 
+            Avatar, 
+            Backdrop, 
+            Badge, 
+            BottomNavigation, 
+            BottomNavigationAction, 
+            Button, 
+            ButtonBase, 
+            Card, 
+            CardActionArea, 
+            CardActions, 
+            CardContent, 
+            CardHeader, 
+            CardMedia, 
+            Checkbox, 
+            Chip, 
+            CircularProgress, 
+            ClickAwayListener, 
+            Collapse, 
+            CssBaseline, 
+            Dialog, 
+            DialogActions, 
+            DialogContent, 
+            DialogContentText, 
+            DialogTitle, 
+            Divider, 
+            Drawer, 
+            ExpansionPanel, 
+            ExpansionPanelActions, 
+            ExpansionPanelDetails, 
+            ExpansionPanelSummary, 
+            Fab, 
+            Fade, 
+            FilledInput, 
+            FormControl, 
+            FormControlLabel, 
+            FormGroup, 
+            FormHelperText, 
+            FormLabel, 
+            Grid, 
+            GridList, 
+            GridListTile, 
+            GridListTileBar, 
+            Grow, 
+            Hidden, 
+            Icon, 
+            IconButton, 
+            Input, 
+            InputAdornment, 
+            InputBase, 
+            InputLabel, 
+            LinearProgress, 
+            Link, 
+            List, 
+            ListItem, 
+            ListItemAvatar, 
+            ListItemIcon, 
+            ListItemSecondaryAction, 
+            ListItemText, 
+            ListSubheader, 
+            Menu, 
+            MenuItem, 
+            MenuList, 
+            MobileStepper, 
+            Modal, 
+            ModalManager, 
+            NativeSelect, 
+            NoSsr, 
+            OutlinedInput, 
+            Paper, 
+            Popover, 
+            Popper, 
+            Portal, 
+            Radio, 
+            RadioGroup, 
+            RootRef, 
+            Select, 
+            Slide, 
+            Snackbar, 
+            SnackbarContent, 
+            Step, 
+            StepButton, 
+            StepConnector, 
+            StepContent, 
+            StepIcon, 
+            StepLabel, 
+            Stepper, 
+            SvgIcon, 
+            SwipeableDrawer, 
+            Switch, 
+            Tab, 
+            Table, 
+            TableBody, 
+            TableCell, 
+            TableFooter, 
+            TableHead, 
+            TablePagination, 
+            TableRow, 
+            TableSortLabel, 
+            Tabs, 
+            TextField, 
+            Toolbar, 
+            Tooltip, 
+            Typography, 
+            withMobileDialog, 
+            withWidth, 
+            Zoom
+         } = MaterialUI;
+        const g_appTitle = "History";
+        const g_dbTitle = "First";
+        const g_jsondataFileName = "first.geop.extended.json";
+        const g_allViews = [
+            'Periods', 
+            'Alliances', 
+            'Events', 
+            'Treaties', 
+            'Acts', 
+            'Agents', 
+            'People', 
+            'States'
+        ];
+        const g_activeViews = [
+            'Periods', 
+            'Alliances', 
+            'Events', 
+            'Treaties', 
+            'Acts', 
+            'Agents', 
+            'People', 
+            'States'
+        ];
+        const g_startView = 'Periods';
+        const g_drawerWidth = 240;
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+        const theme = createMuiTheme({
+            palette: {
+                primary: {
+                    light: colors.purple[300], 
+                    main: colors.purple[500], 
+                    dark: colors.purple[700]
+                 }, 
+                secondary: {
+                    light: colors.yellow[300], 
+                    main: colors.yellow[500], 
+                    dark: colors.yellow[700]
+                 }
+             }, 
+            typography: {
+                useNextVariants: true
+             }
+         });
+        function DetailBar(props) {
+            var {title, id, showFullBar, onClick} = props;
+            return  (
+                    <div className="bar">
+                    {
+                        showFullBar
+                         &&  (
+                                <div className="bar-arrow-left" onClick={onClick}>
+                                    <img src={'./assets/img/arrow-left.png'} className="bar-arrow-left-img">
+                                    </img>
+                                
+                                </div>
+                            )
+                        
+                    }
+                    {
+                        showFullBar
+                         &&  (
+                                <div className="bar-title">
+                                {title}
+                                </div>
+                            )
+                        
+                    }
+                        <div className="bar-id">
+                        id: {id}
+                        </div>
+                    
+                        <div className="li-clear">
+                        </div>
+                    
+                    </div>
+                )
+            ;
+        }
+        function extractTitle(item) {
+            var {id, name, title, date} = item;
+            title = (title || name);
+            title = title && title.text ? title.text : name;
+            if (date) {
+                if (date.start) {
+                    if (date.end) {
+                        title = title + ' (' + date.start + ' - ' + date.end + ')';
+                    }
+                    else {
+                        title = title + ' (' + date.start + ')';
+                    }
+                }
+                else {
+                    title = title + ' (' + date + ')';
+                }
+            }
+            return title;
+        }
+        function ImageParagraph(props) {
+            var {src} = props;
+            return  (
+                    <img src={src}>
+                    </img>
+                )
+            ;
+        }
+        function Quote(props) {
+            var {item, jsonData} = props;
+            var page = null;
+            // log 'Quote', item
+            if (item.page) {
+                page = 'pag. ' + item.page;
+            }
+            else if (item.epage) {
+                page = 'kindle pag. ' + item.epage;
+            }
+            else if (item.eloc) {
+                page = 'kindle loc. ' + item.eloc;
+            }
+            return  (
+                    <blockquote>
+                    {
+                        item.lines.map(function(token, i) {
+                            if (token.quote) {
+                                return  (
+                                        <Quote key={i} item={token.quote} jsonData={jsonData}>
+                                        </Quote>
+                                    )
+                                ;
+                            }
+                            else if (token.img) {
+                                return  (
+                                        <ImageParagraph src={token.img}>
+                                        </ImageParagraph>
+                                    )
+                                ;
+                            }
+                            else {
+                                return  (
+                                        <p key={i}>
+                                        {token}
+                                        </p>
+                                    )
+                                ;
+                            }
+                        })
+                    }
+                        <cite>
+                        {
+                            item.article && item.article.length > 0
+                             &&  (
+                                    <QuoteArticle id={item.article} page={page} jsonData={jsonData}>
+                                    </QuoteArticle>
+                                )
+                            
+                        }
+                        {
+                            item.book && item.book.length > 0
+                             &&  (
+                                    <QuoteBook id={item.book} page={page} jsonData={jsonData}>
+                                    </QuoteBook>
+                                )
+                            
+                        }
+                        </cite>
+                    
+                    {
+                        item.comment
+                         &&  (
+                                <div className="quote-comment-box">
+                                    <ContentText item={item.comment} jsonData={jsonData}>
+                                    </ContentText>
+                                
+                                </div>
+                            )
+                        
+                    }
+                    </blockquote>
+                )
+            ;
+        }
+        function QuoteArticle(props) {
+            var {id, page, jsonData} = props;
+            var title = id, author = null;
+            // log 'QuoteArticle', id, page
+            var articleObj = dbGetArticle(id, jsonData);
+            // log 'QuoteArticle.articleObj', articleObj
+            
+            // log 'QuoteArticle.title', title
+            if (articleObj) {
+                var authorsObj = dbGetAuthors(articleObj.authors, jsonData);
+                var titleText = dbExtractTitleText(articleObj.title);
+                title = titleText || articleObj.url || articleObj.id;
+                if (authorsObj.length > 0) {
+                    author = authorsObj[0].fullname;
+                }
+                else {
+                    if (authorsObj.book) {
+                        var bookObj = dbGetBook(authorsObj.book, jsonData);
+                        if (bookObj) {
+                            var authorsObj = dbGetAuthors(bookObj.authors, jsonData);
+                            if (authorsObj.length > 0) {
+                                author = authorsObj[0].fullname;
+                            }
+                        }
+                    }
+                    else {
+                        author = 'missing author';
+                    }
+                }
+            }
+            else {
+                title = 'missing article: '+ title;
+                author = 'missing author';
+            }
+            return  (
+                    <div>
+                    {author}, {title} {page && ','} {page}
+                    </div>
+                )
+            ;
+        }
+        function QuoteBook(props) {
+            var {id, page, jsonData} = props;
+            var title = id, author = null;
+            var bookObj = dbGetBook(id, jsonData);
+            // log 'QuoteBook', id, page
+            
+            // log 'QuoteBook.bookObj.authors', bookObj.authors
+            
+            // log 'QuoteBook.authorsObj', authorsObj
+            if (bookObj) {
+                var authorsObj = dbGetAuthors(bookObj.authors, jsonData);
+                var titleText = dbExtractTitleText(bookObj.title);
+                title = titleText || bookObj.url || bookObj.id;
+                if (authorsObj.length > 0) {
+                    author = authorsObj[0].fullname;
+                }
+                else {
+                    author = 'missing author';
+                }
+            }
+            else {
+                title = title + ' missing article';
+                author = 'missing author';
+            }
+            return  (
+                    <div>
+                    {author}, {title} {page && ','} {page}
+                    </div>
+                )
+            ;
+        }
+        function RConcept(props) {
+            var {item, jsonData, handleOpen} = props;
+            var {id} = item;
+            var conceptObj = dbGetConcept(id, jsonData);
+            // log 'RConcept.conceptObj', id, conceptObj
+            var conceptTitle = conceptObj ? dbExtractTitleText(conceptObj.title) : 'missing concept: ' + id;
+            return  (
+                    <div className="rc-box">
+                        <div>
+                            <div className={conceptObj ? 'rc-ref-pointer' : 'rc-ref'} onClick={(ev) => {
+                            
+                                if (conceptObj) {
+                                    handleOpen(ev, conceptObj);
+                                }
+                            }
+                            }>
+                                <span />
+                                    <span />
+                                    </div>
+                                
+                                </div>
+                            
+                                <div className="rc-content">
+                                    <ContentText item={item} jsonData={jsonData}>
+                                    </ContentText>
+                                
+                                </div>
+                            
+                            </div>
+                        )
+                    ;
+                }
+                function RArticle(props) {
+                    var {item, jsonData, handleOpen} = props;
+                    var {id} = item;
+                    var articleObj = dbGetArticle(id, jsonData);
+                    console.log('RArticle.articleObj', id, articleObj);
+                    var articleTitle = articleObj ? dbExtractTitleText(articleObj.title) : 'missing article: ' + id;
+                    return  (
+                            <div className="rc-box">
+                                <div>
+                                    <div className={articleObj ? 'rc-ref-pointer' : 'rc-ref'} onClick={(ev) => {
+                                    
+                                        if (articleObj) {
+                                            handleOpen(ev, articleObj);
+                                        }
+                                    }
+                                    }>
+                                        <span />
+                                            <span />
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                        <div className="rc-content">
+                                            <ContentText item={item} jsonData={jsonData}>
+                                            </ContentText>
+                                        
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function ContentText(props) {
+                            var {item, jsonData, handleOpen} = props;
+                            if (item.contents && item.contents.length > 0) {
+                                return  (
+                                        <div>
+                                        {
+                                            item.contents.map(function(token, i) {
+                                                if (token.line) {
+                                                    return  (
+                                                            <p key={i}>
+                                                            {token.line}
+                                                            </p>
+                                                        )
+                                                    ;
+                                                }
+                                                else if (token.image) {
+                                                    return  (
+                                                            <ImageParagraph src={token.image}>
+                                                            </ImageParagraph>
+                                                        )
+                                                    ;
+                                                }
+                                                else if (token.quote) {
+                                                    return  (
+                                                            <Quote key={i} item={token.quote} jsonData={jsonData}>
+                                                            </Quote>
+                                                        )
+                                                    ;
+                                                }
+                                                else if (token.kind == "rconcept") {
+                                                    return  (
+                                                            <RConcept key={i} item={token} handleOpen={handleOpen} jsonData={jsonData}>
+                                                            </RConcept>
+                                                        )
+                                                    ;
+                                                }
+                                                else if (token.kind == "rarticle") {
+                                                    return  (
+                                                            <RArticle key={i} item={token} handleOpen={handleOpen} jsonData={jsonData}>
+                                                            </RArticle>
+                                                        )
+                                                    ;
+                                                }
+                                            })
+                                        }
+                                        </div>
+                                    )
+                                ;
+                            }
+                            else {
+                                return null;
+                            }
+                        }
+                        class PeriodList extends React.Component {
+                            state = {
+                                status: 'list', 
+                                selectedItem: null, 
+                                scrollTop: 0, 
+                                scrollingElement: null, 
+                                justRenderedList: false, 
+                                justRenderedItem: false, 
+                                forms: [
+                                    
+                                ], 
+                                current: {
+                                    status: 'list', 
+                                    selectedItem: null, 
+                                    scrollTop: 0, 
+                                    scrollingElement: null, 
+                                    justRenderedList: false, 
+                                    depth: 0, 
+                                    title: 'Periods'
+                                 }
+                             };
+                            componentDidMount() {
+                                window.addEventListener('scroll', this.handlePaperScroll);
+                                this.props.onChangeCurrent(this.state.current, this.handlePeriodClose, this.handleChangeSearch);
+                            }
+                            componentWillUnmount() {
+                                window.removeEventListener('scroll', this.handlePaperScroll);
+                            }
+                            componentDidUpdate(prevProps, prevState) {
+                                if (this.state.current.justRenderedList) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, this.state.current.scrollTop);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedList: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                                if (this.state.current.justRenderedItem) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, 0);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedItem: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePaperScroll = (ev) => {
+                                if (this.state.current.status == 'list') {
+                                    if (ev.target.scrollingElement) {
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        scrollTop: event.target.scrollingElement.scrollTop, 
+                                                        scrollingElement: event.target.scrollingElement
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePeriodClose = () => {
+                                this.setState((prevState) => {
+                                
+                                    var current = prevState.forms.pop();
+                                    if (current.status == 'list') {
+                                        current.justRenderedList = true;
+                                        current.depth = prevState.forms.length;
+                                        current.title = 'Periods';
+                                        current.selectedItem = null;
+                                    }
+                                    this.props.onChangeCurrent(current, this.handlePeriodClose, this.handleChangeSearch);
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            handleChangeSearch = (ev) => {
+                                var search = ev.target.value;
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            current: {
+                                                ...prevState.current, 
+                                                searchText: search
+                                             }
+                                         };
+                                }
+                                )
+                            }
+                            handlePeriodOpen = (ev, selectedItem) => {
+                                // log 'handlePeriodOpen.id', selectedItem.id
+                                // log 'handlePeriodOpen.ev', ev
+                                this.setState((prevState) => {
+                                
+                                    // log 'handlePeriodOpen'
+                                    prevState.forms.push(prevState.current)
+                                    var current = {
+                                        ...prevState.current, 
+                                        status: 'period', 
+                                        selectedItem: selectedItem, 
+                                        depth: prevState.forms.length, 
+                                        title: (selectedItem.title && selectedItem.title.text) || selectedItem.id, 
+                                        justRenderedItem: true
+                                     };
+                                    this.props.onChangeCurrent(current, this.handlePeriodClose, this.handleChangeSearch);
+                                    // log 'onChangeCurrent called'
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            render() {
+                                const {
+                                    classes,
+                                    jsonData,
+                                    selectedState
+                                } = this.props;
+                                const {
+                                    status, 
+                                    selectedItem, 
+                                    searchText
+                                 } = this.state.current;
+                                // log 'PeriodList.render', status, selectedItem
+                                return  (
+                                        <div>
+                                            <Paper style={{maxHeight: '90%', maxWidth:800, padding:10, overflow: 'auto'}}>
+                                            {
+                                                status == 'list'
+                                                 &&  (
+                                                        <div>
+                                                        {
+                                                            jsonData.periods.sort(compareByDate).map((item, ndx) => {
+                                                            
+                                                                if (dbFilterIdAndTitleState(item, searchText, selectedState)) {
+                                                                    return  (
+                                                                            <PeriodListItem key={ndx} item={item} classes={classes} onClick={this.handlePeriodOpen}>
+                                                                            </PeriodListItem>
+                                                                        )
+                                                                    ;
+                                                                }
+                                                            }
+                                                            )
+                                                        }
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            {
+                                                status == 'period'
+                                                 &&  (
+                                                        <div>
+                                                            <Period item={selectedItem} jsonData={jsonData}>
+                                                            </Period>
+                                                        
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            </Paper>
+                                        
+                                        </div>
+                                    )
+                                ;
+                            }
+                        }
+                        function PeriodListItem(props) {
+                            const {item, onClick, classes} = props;
+                            const {id} = item;
+                            const title = extractTitle(item);
+                            // log 'PeriodListItem', title, id, item
+                            return  (
+                                    <div onClick={event => 
+                                    
+                                        onClick(event, item)
+                                    }>
+                                        <div className="li-c-title">
+                                        {title}
+                                        </div>
+                                    
+                                        <div className="li-c-id">
+                                        id: {id}
+                                        </div>
+                                    
+                                        <div className="li-clear">
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function Period(props) {
+                            var {item, jsonData} = props;
+                            return  (
+                                    <div>
+                                        <div>
+                                            <div className="li-clear">
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    {
+                                        item.wiki
+                                         &&  (
+                                                <WikiPanel item={item.wiki} jsonData={jsonData}>
+                                                </WikiPanel>
+                                            )
+                                        
+                                    }
+                                    </div>
+                                )
+                            ;
+                        }
+                        class AllianceList extends React.Component {
+                            state = {
+                                status: 'list', 
+                                selectedItem: null, 
+                                scrollTop: 0, 
+                                scrollingElement: null, 
+                                justRenderedList: false, 
+                                justRenderedItem: false, 
+                                forms: [
+                                    
+                                ], 
+                                current: {
+                                    status: 'list', 
+                                    selectedItem: null, 
+                                    scrollTop: 0, 
+                                    scrollingElement: null, 
+                                    justRenderedList: false, 
+                                    depth: 0, 
+                                    title: 'Alliances'
+                                 }
+                             };
+                            componentDidMount() {
+                                window.addEventListener('scroll', this.handlePaperScroll);
+                                this.props.onChangeCurrent(this.state.current, this.handleAllianceClose, this.handleChangeSearch);
+                            }
+                            componentWillUnmount() {
+                                window.removeEventListener('scroll', this.handlePaperScroll);
+                            }
+                            componentDidUpdate(prevProps, prevState) {
+                                if (this.state.current.justRenderedList) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, this.state.current.scrollTop);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedList: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                                if (this.state.current.justRenderedItem) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, 0);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedItem: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePaperScroll = (ev) => {
+                                if (this.state.current.status == 'list') {
+                                    if (ev.target.scrollingElement) {
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        scrollTop: event.target.scrollingElement.scrollTop, 
+                                                        scrollingElement: event.target.scrollingElement
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handleAllianceClose = () => {
+                                this.setState((prevState) => {
+                                
+                                    var current = prevState.forms.pop();
+                                    if (current.status == 'list') {
+                                        current.justRenderedList = true;
+                                        current.depth = prevState.forms.length;
+                                        current.title = 'Alliances';
+                                        current.selectedItem = null;
+                                    }
+                                    this.props.onChangeCurrent(current, this.handleAllianceClose, this.handleChangeSearch);
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            handleChangeSearch = (ev) => {
+                                var search = ev.target.value;
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            current: {
+                                                ...prevState.current, 
+                                                searchText: search
+                                             }
+                                         };
+                                }
+                                )
+                            }
+                            handleAllianceOpen = (ev, selectedItem) => {
+                                // log 'handleAllianceOpen.id', selectedItem.id
+                                // log 'handleAllianceOpen.ev', ev
+                                this.setState((prevState) => {
+                                
+                                    // log 'handleAllianceOpen'
+                                    prevState.forms.push(prevState.current)
+                                    var current = {
+                                        ...prevState.current, 
+                                        status: 'alliance', 
+                                        selectedItem: selectedItem, 
+                                        depth: prevState.forms.length, 
+                                        title: (selectedItem.title && selectedItem.title.text) || selectedItem.id, 
+                                        justRenderedItem: true
+                                     };
+                                    this.props.onChangeCurrent(current, this.handleAllianceClose, this.handleChangeSearch);
+                                    // log 'onChangeCurrent called'
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            render() {
+                                const {
+                                    classes,
+                                    jsonData,
+                                    selectedState
+                                } = this.props;
+                                const {
+                                    status, 
+                                    selectedItem, 
+                                    searchText
+                                 } = this.state.current;
+                                // log 'AllianceList.render', status, selectedItem
+                                return  (
+                                        <div>
+                                            <Paper style={{maxHeight: '90%', maxWidth:800, padding:10, overflow: 'auto'}}>
+                                            {
+                                                status == 'list'
+                                                 &&  (
+                                                        <div>
+                                                        {
+                                                            jsonData.alliances.sort(compareByDate).map((item, ndx) => {
+                                                            
+                                                                if (dbFilterIdAndTitleState(item, searchText, selectedState)) {
+                                                                    return  (
+                                                                            <AllianceListItem key={ndx} item={item} classes={classes} onClick={this.handleAllianceOpen}>
+                                                                            </AllianceListItem>
+                                                                        )
+                                                                    ;
+                                                                }
+                                                            }
+                                                            )
+                                                        }
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            {
+                                                status == 'alliance'
+                                                 &&  (
+                                                        <div>
+                                                            <Alliance item={selectedItem} jsonData={jsonData}>
+                                                            </Alliance>
+                                                        
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            </Paper>
+                                        
+                                        </div>
+                                    )
+                                ;
+                            }
+                        }
+                        function AllianceListItem(props) {
+                            const {item, onClick, classes} = props;
+                            const {id} = item;
+                            const title = extractTitle(item);
+                            // log 'AllianceListItem', title, id, item
+                            return  (
+                                    <div onClick={event => 
+                                    
+                                        onClick(event, item)
+                                    }>
+                                        <div className="li-c-title">
+                                        {title}
+                                        </div>
+                                    
+                                        <div className="li-c-id">
+                                        id: {id}
+                                        </div>
+                                    
+                                        <div className="li-clear">
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function Alliance(props) {
+                            var {item, jsonData} = props;
+                            return  (
+                                    <div>
+                                        <div>
+                                            <div className="li-clear">
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    {
+                                        item.wiki
+                                         &&  (
+                                                <WikiPanel item={item.wiki} jsonData={jsonData}>
+                                                </WikiPanel>
+                                            )
+                                        
+                                    }
+                                    </div>
+                                )
+                            ;
+                        }
+                        class EventList extends React.Component {
+                            state = {
+                                status: 'list', 
+                                selectedItem: null, 
+                                scrollTop: 0, 
+                                scrollingElement: null, 
+                                justRenderedList: false, 
+                                justRenderedItem: false, 
+                                forms: [
+                                    
+                                ], 
+                                current: {
+                                    status: 'list', 
+                                    selectedItem: null, 
+                                    scrollTop: 0, 
+                                    scrollingElement: null, 
+                                    justRenderedList: false, 
+                                    depth: 0, 
+                                    title: 'Events'
+                                 }
+                             };
+                            componentDidMount() {
+                                window.addEventListener('scroll', this.handlePaperScroll);
+                                this.props.onChangeCurrent(this.state.current, this.handleEventClose, this.handleChangeSearch);
+                            }
+                            componentWillUnmount() {
+                                window.removeEventListener('scroll', this.handlePaperScroll);
+                            }
+                            componentDidUpdate(prevProps, prevState) {
+                                if (this.state.current.justRenderedList) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, this.state.current.scrollTop);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedList: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                                if (this.state.current.justRenderedItem) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, 0);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedItem: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePaperScroll = (ev) => {
+                                if (this.state.current.status == 'list') {
+                                    if (ev.target.scrollingElement) {
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        scrollTop: event.target.scrollingElement.scrollTop, 
+                                                        scrollingElement: event.target.scrollingElement
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handleEventClose = () => {
+                                this.setState((prevState) => {
+                                
+                                    var current = prevState.forms.pop();
+                                    if (current.status == 'list') {
+                                        current.justRenderedList = true;
+                                        current.depth = prevState.forms.length;
+                                        current.title = 'Events';
+                                        current.selectedItem = null;
+                                    }
+                                    this.props.onChangeCurrent(current, this.handleEventClose, this.handleChangeSearch);
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            handleChangeSearch = (ev) => {
+                                var search = ev.target.value;
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            current: {
+                                                ...prevState.current, 
+                                                searchText: search
+                                             }
+                                         };
+                                }
+                                )
+                            }
+                            handleEventOpen = (ev, selectedItem) => {
+                                // log 'handleEventOpen.id', selectedItem.id
+                                // log 'handleEventOpen.ev', ev
+                                this.setState((prevState) => {
+                                
+                                    // log 'handleEventOpen'
+                                    prevState.forms.push(prevState.current)
+                                    var current = {
+                                        ...prevState.current, 
+                                        status: 'event', 
+                                        selectedItem: selectedItem, 
+                                        depth: prevState.forms.length, 
+                                        title: (selectedItem.title && selectedItem.title.text) || selectedItem.id, 
+                                        justRenderedItem: true
+                                     };
+                                    this.props.onChangeCurrent(current, this.handleEventClose, this.handleChangeSearch);
+                                    // log 'onChangeCurrent called'
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            render() {
+                                const {
+                                    classes,
+                                    jsonData,
+                                    selectedState
+                                } = this.props;
+                                const {
+                                    status, 
+                                    selectedItem, 
+                                    searchText
+                                 } = this.state.current;
+                                // log 'EventList.render', status, selectedItem, selectedState
+                                return  (
+                                        <div>
+                                            <Paper style={{maxHeight: '90%', maxWidth:800, padding:10, overflow: 'auto'}}>
+                                            {
+                                                status == 'list'
+                                                 &&  (
+                                                        <div>
+                                                        {
+                                                            jsonData.events.sort(compareByDate).map((item, ndx) => {
+                                                            
+                                                                if (dbFilterIdAndTitleState(item, searchText, selectedState)) {
+                                                                    return  (
+                                                                            <EventListItem key={ndx} item={item} classes={classes} onClick={this.handleEventOpen}>
+                                                                            </EventListItem>
+                                                                        )
+                                                                    ;
+                                                                }
+                                                            }
+                                                            )
+                                                        }
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            {
+                                                status == 'event'
+                                                 &&  (
+                                                        <div>
+                                                            <Event item={selectedItem} jsonData={jsonData}>
+                                                            </Event>
+                                                        
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            </Paper>
+                                        
+                                        </div>
+                                    )
+                                ;
+                            }
+                        }
+                        function EventListItem(props) {
+                            const {item, onClick, classes} = props;
+                            const {id} = item;
+                            const title = extractTitle(item);
+                            // log 'EventListItem', title, id, item
+                            return  (
+                                    <div onClick={event => 
+                                    
+                                        onClick(event, item)
+                                    }>
+                                        <div className="li-c-title">
+                                        {title}
+                                        </div>
+                                    
+                                        <div className="li-c-id">
+                                        id: {id}
+                                        </div>
+                                    
+                                        <div className="li-clear">
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function Event(props) {
+                            var {item, jsonData} = props;
+                            return  (
+                                    <div>
+                                        <div>
+                                            <div className="li-clear">
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    {
+                                        item.wiki
+                                         &&  (
+                                                <WikiPanel item={item.wiki} jsonData={jsonData}>
+                                                </WikiPanel>
+                                            )
+                                        
+                                    }
+                                    </div>
+                                )
+                            ;
+                        }
+                        class TreatyList extends React.Component {
+                            state = {
+                                status: 'list', 
+                                selectedItem: null, 
+                                scrollTop: 0, 
+                                scrollingElement: null, 
+                                justRenderedList: false, 
+                                justRenderedItem: false, 
+                                forms: [
+                                    
+                                ], 
+                                current: {
+                                    status: 'list', 
+                                    selectedItem: null, 
+                                    scrollTop: 0, 
+                                    scrollingElement: null, 
+                                    justRenderedList: false, 
+                                    depth: 0, 
+                                    title: 'Treaties'
+                                 }
+                             };
+                            componentDidMount() {
+                                window.addEventListener('scroll', this.handlePaperScroll);
+                                this.props.onChangeCurrent(this.state.current, this.handleTreatyClose, this.handleChangeSearch);
+                            }
+                            componentWillUnmount() {
+                                window.removeEventListener('scroll', this.handlePaperScroll);
+                            }
+                            componentDidUpdate(prevProps, prevState) {
+                                if (this.state.current.justRenderedList) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, this.state.current.scrollTop);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedList: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                                if (this.state.current.justRenderedItem) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, 0);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedItem: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePaperScroll = (ev) => {
+                                if (this.state.current.status == 'list') {
+                                    if (ev.target.scrollingElement) {
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        scrollTop: event.target.scrollingElement.scrollTop, 
+                                                        scrollingElement: event.target.scrollingElement
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handleTreatyClose = () => {
+                                this.setState((prevState) => {
+                                
+                                    var current = prevState.forms.pop();
+                                    if (current.status == 'list') {
+                                        current.justRenderedList = true;
+                                        current.depth = prevState.forms.length;
+                                        current.title = 'Treaties';
+                                        current.selectedItem = null;
+                                    }
+                                    this.props.onChangeCurrent(current, this.handleTreatyClose, this.handleChangeSearch);
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            handleChangeSearch = (ev) => {
+                                var search = ev.target.value;
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            current: {
+                                                ...prevState.current, 
+                                                searchText: search
+                                             }
+                                         };
+                                }
+                                )
+                            }
+                            handleTreatyOpen = (ev, selectedItem) => {
+                                // log 'handleTreatyOpen.id', selectedItem.id
+                                // log 'handleTreatyOpen.ev', ev
+                                this.setState((prevState) => {
+                                
+                                    // log 'handleTreatyOpen'
+                                    prevState.forms.push(prevState.current)
+                                    var current = {
+                                        ...prevState.current, 
+                                        status: 'treaty', 
+                                        selectedItem: selectedItem, 
+                                        depth: prevState.forms.length, 
+                                        title: (selectedItem.title && selectedItem.title.text) || selectedItem.id, 
+                                        justRenderedItem: true
+                                     };
+                                    this.props.onChangeCurrent(current, this.handleTreatyClose, this.handleChangeSearch);
+                                    // log 'onChangeCurrent called'
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            render() {
+                                const {
+                                    classes,
+                                    jsonData,
+                                    selectedState
+                                } = this.props;
+                                const {
+                                    status, 
+                                    selectedItem, 
+                                    searchText
+                                 } = this.state.current;
+                                // log 'TreatyList.render', status, selectedItem
+                                return  (
+                                        <div>
+                                            <Paper style={{maxHeight: '90%', maxWidth:800, padding:10, overflow: 'auto'}}>
+                                            {
+                                                status == 'list'
+                                                 &&  (
+                                                        <div>
+                                                        {
+                                                            jsonData.treaties.sort(compareByDate).map((item, ndx) => {
+                                                            
+                                                                if (dbFilterIdAndTitleState(item, searchText, selectedState)) {
+                                                                    return  (
+                                                                            <TreatyListItem key={ndx} item={item} classes={classes} onClick={this.handleTreatyOpen}>
+                                                                            </TreatyListItem>
+                                                                        )
+                                                                    ;
+                                                                }
+                                                            }
+                                                            )
+                                                        }
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            {
+                                                status == 'treaty'
+                                                 &&  (
+                                                        <div>
+                                                            <Treaty item={selectedItem} jsonData={jsonData}>
+                                                            </Treaty>
+                                                        
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            </Paper>
+                                        
+                                        </div>
+                                    )
+                                ;
+                            }
+                        }
+                        function TreatyListItem(props) {
+                            const {item, onClick, classes} = props;
+                            const {id} = item;
+                            const title = extractTitle(item);
+                            // log 'TreatyListItem', title, id, item
+                            return  (
+                                    <div onClick={treaty => 
+                                    
+                                        onClick(treaty, item)
+                                    }>
+                                        <div className="li-c-title">
+                                        {title}
+                                        </div>
+                                    
+                                        <div className="li-c-id">
+                                        id: {id}
+                                        </div>
+                                    
+                                        <div className="li-clear">
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function Treaty(props) {
+                            var {item, jsonData} = props;
+                            return  (
+                                    <div>
+                                        <div>
+                                            <div className="li-clear">
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    {
+                                        item.wiki
+                                         &&  (
+                                                <WikiPanel item={item.wiki} jsonData={jsonData}>
+                                                </WikiPanel>
+                                            )
+                                        
+                                    }
+                                    </div>
+                                )
+                            ;
+                        }
+                        class ActList extends React.Component {
+                            state = {
+                                status: 'list', 
+                                selectedItem: null, 
+                                scrollTop: 0, 
+                                scrollingElement: null, 
+                                justRenderedList: false, 
+                                justRenderedItem: false, 
+                                forms: [
+                                    
+                                ], 
+                                current: {
+                                    status: 'list', 
+                                    selectedItem: null, 
+                                    scrollTop: 0, 
+                                    scrollingElement: null, 
+                                    justRenderedList: false, 
+                                    depth: 0, 
+                                    title: 'Acts'
+                                 }
+                             };
+                            componentDidMount() {
+                                window.addEventListener('scroll', this.handlePaperScroll);
+                                this.props.onChangeCurrent(this.state.current, this.handleActClose, this.handleChangeSearch);
+                            }
+                            componentWillUnmount() {
+                                window.removeEventListener('scroll', this.handlePaperScroll);
+                            }
+                            componentDidUpdate(prevProps, prevState) {
+                                if (this.state.current.justRenderedList) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, this.state.current.scrollTop);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedList: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                                if (this.state.current.justRenderedItem) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, 0);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedItem: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePaperScroll = (ev) => {
+                                if (this.state.current.status == 'list') {
+                                    if (ev.target.scrollingElement) {
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        scrollTop: event.target.scrollingElement.scrollTop, 
+                                                        scrollingElement: event.target.scrollingElement
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handleActClose = () => {
+                                this.setState((prevState) => {
+                                
+                                    var current = prevState.forms.pop();
+                                    if (current.status == 'list') {
+                                        current.justRenderedList = true;
+                                        current.depth = prevState.forms.length;
+                                        current.title = 'Acts';
+                                        current.selectedItem = null;
+                                    }
+                                    this.props.onChangeCurrent(current, this.handleActClose, this.handleChangeSearch);
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            handleChangeSearch = (ev) => {
+                                var search = ev.target.value;
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            current: {
+                                                ...prevState.current, 
+                                                searchText: search
+                                             }
+                                         };
+                                }
+                                )
+                            }
+                            handleActOpen = (ev, selectedItem) => {
+                                // log 'handleActOpen.id', selectedItem.id
+                                // log 'handleActOpen.ev', ev
+                                this.setState((prevState) => {
+                                
+                                    // log 'handleActOpen'
+                                    prevState.forms.push(prevState.current)
+                                    var current = {
+                                        ...prevState.current, 
+                                        status: 'act', 
+                                        selectedItem: selectedItem, 
+                                        depth: prevState.forms.length, 
+                                        title: (selectedItem.title && selectedItem.title.text) || selectedItem.id, 
+                                        justRenderedItem: true
+                                     };
+                                    this.props.onChangeCurrent(current, this.handleActClose, this.handleChangeSearch);
+                                    // log 'onChangeCurrent called'
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            render() {
+                                const {
+                                    classes,
+                                    jsonData,
+                                    selectedState
+                                } = this.props;
+                                const {
+                                    status, 
+                                    selectedItem, 
+                                    searchText
+                                 } = this.state.current;
+                                // log 'ActList.render', status, selectedItem
+                                return  (
+                                        <div>
+                                            <Paper style={{maxHeight: '90%', maxWidth:800, padding:10, overflow: 'auto'}}>
+                                            {
+                                                status == 'list'
+                                                 &&  (
+                                                        <div>
+                                                        {
+                                                            jsonData.acts.sort(compareByDate).map((item, ndx) => {
+                                                            
+                                                                if (dbFilterIdAndTitleState(item, searchText, selectedState)) {
+                                                                    return  (
+                                                                            <ActListItem key={ndx} item={item} classes={classes} onClick={this.handleActOpen}>
+                                                                            </ActListItem>
+                                                                        )
+                                                                    ;
+                                                                }
+                                                            }
+                                                            )
+                                                        }
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            {
+                                                status == 'act'
+                                                 &&  (
+                                                        <div>
+                                                            <Act item={selectedItem} jsonData={jsonData}>
+                                                            </Act>
+                                                        
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            </Paper>
+                                        
+                                        </div>
+                                    )
+                                ;
+                            }
+                        }
+                        function ActListItem(props) {
+                            const {item, onClick, classes} = props;
+                            const {id} = item;
+                            const title = extractTitle(item);
+                            // log 'ActListItem', title, id, item
+                            return  (
+                                    <div onClick={event => 
+                                    
+                                        onClick(event, item)
+                                    }>
+                                        <div className="li-c-title">
+                                        {title}
+                                        </div>
+                                    
+                                        <div className="li-c-id">
+                                        id: {id}
+                                        </div>
+                                    
+                                        <div className="li-clear">
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function Act(props) {
+                            var {item, jsonData} = props;
+                            return  (
+                                    <div>
+                                        <div>
+                                            <div className="li-clear">
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    {
+                                        item.wiki
+                                         &&  (
+                                                <WikiPanel item={item.wiki} jsonData={jsonData}>
+                                                </WikiPanel>
+                                            )
+                                        
+                                    }
+                                    </div>
+                                )
+                            ;
+                        }
+                        class AgentList extends React.Component {
+                            state = {
+                                status: 'list', 
+                                selectedItem: null, 
+                                scrollTop: 0, 
+                                scrollingElement: null, 
+                                justRenderedList: false, 
+                                justRenderedItem: false, 
+                                forms: [
+                                    
+                                ], 
+                                current: {
+                                    status: 'list', 
+                                    selectedItem: null, 
+                                    scrollTop: 0, 
+                                    scrollingElement: null, 
+                                    justRenderedList: false, 
+                                    depth: 0, 
+                                    title: 'Agents'
+                                 }
+                             };
+                            componentDidMount() {
+                                window.addEventListener('scroll', this.handlePaperScroll);
+                                this.props.onChangeCurrent(this.state.current, this.handleAgentClose, this.handleChangeSearch);
+                            }
+                            componentWillUnmount() {
+                                window.removeEventListener('scroll', this.handlePaperScroll);
+                            }
+                            componentDidUpdate(prevProps, prevState) {
+                                if (this.state.current.justRenderedList) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, this.state.current.scrollTop);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedList: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                                if (this.state.current.justRenderedItem) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, 0);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedItem: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePaperScroll = (ev) => {
+                                if (this.state.current.status == 'list') {
+                                    if (ev.target.scrollingElement) {
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        scrollTop: event.target.scrollingElement.scrollTop, 
+                                                        scrollingElement: event.target.scrollingElement
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handleAgentClose = () => {
+                                this.setState((prevState) => {
+                                
+                                    var current = prevState.forms.pop();
+                                    if (current.status == 'list') {
+                                        current.justRenderedList = true;
+                                        current.depth = prevState.forms.length;
+                                        current.title = 'Agents';
+                                        current.selectedItem = null;
+                                    }
+                                    this.props.onChangeCurrent(current, this.handleAgentClose, this.handleChangeSearch);
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            handleChangeSearch = (ev) => {
+                                var search = ev.target.value;
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            current: {
+                                                ...prevState.current, 
+                                                searchText: search
+                                             }
+                                         };
+                                }
+                                )
+                            }
+                            handleAgentOpen = (ev, selectedItem) => {
+                                // log 'handleAgentOpen.id', selectedItem.id
+                                // log 'handleAgentOpen.ev', ev
+                                this.setState((prevState) => {
+                                
+                                    // log 'handleAgentOpen'
+                                    prevState.forms.push(prevState.current)
+                                    var current = {
+                                        ...prevState.current, 
+                                        status: 'agent', 
+                                        selectedItem: selectedItem, 
+                                        depth: prevState.forms.length, 
+                                        title: (selectedItem.title && selectedItem.title.text) || selectedItem.id, 
+                                        justRenderedItem: true
+                                     };
+                                    this.props.onChangeCurrent(current, this.handleAgentClose, this.handleChangeSearch);
+                                    // log 'onChangeCurrent called'
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            render() {
+                                const {
+                                    classes,
+                                    jsonData,
+                                    selectedState
+                                } = this.props;
+                                const {
+                                    status, 
+                                    selectedItem, 
+                                    searchText
+                                 } = this.state.current;
+                                // log 'AgentList.render', status, selectedItem
+                                return  (
+                                        <div>
+                                            <Paper style={{maxHeight: '90%', maxWidth:800, padding:10, overflow: 'auto'}}>
+                                            {
+                                                status == 'list'
+                                                 &&  (
+                                                        <div>
+                                                        {
+                                                            jsonData.agents.sort(compareById).map((item, ndx) => {
+                                                            
+                                                                if (dbFilterIdAndTitleState(item, searchText, selectedState)) {
+                                                                    return  (
+                                                                            <AgentListItem key={ndx} item={item} classes={classes} onClick={this.handleAgentOpen}>
+                                                                            </AgentListItem>
+                                                                        )
+                                                                    ;
+                                                                }
+                                                            }
+                                                            )
+                                                        }
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            {
+                                                status == 'agent'
+                                                 &&  (
+                                                        <div>
+                                                            <Agent item={selectedItem} jsonData={jsonData}>
+                                                            </Agent>
+                                                        
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            </Paper>
+                                        
+                                        </div>
+                                    )
+                                ;
+                            }
+                        }
+                        function AgentListItem(props) {
+                            const {item, onClick, classes} = props;
+                            const {id} = item;
+                            const title = extractTitle(item);
+                            // log 'AgentListItem', title, id, item
+                            return  (
+                                    <div onClick={event => 
+                                    
+                                        onClick(event, item)
+                                    }>
+                                        <div className="li-c-title">
+                                        {title}
+                                        </div>
+                                    
+                                        <div className="li-c-id">
+                                        id: {id}
+                                        </div>
+                                    
+                                        <div className="li-clear">
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function Agent(props) {
+                            var {item, jsonData} = props;
+                            return  (
+                                    <div>
+                                        <div>
+                                            <div className="li-clear">
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    {
+                                        item.wiki
+                                         &&  (
+                                                <WikiPanel item={item.wiki} jsonData={jsonData}>
+                                                </WikiPanel>
+                                            )
+                                        
+                                    }
+                                    </div>
+                                )
+                            ;
+                        }
+                        class PersonList extends React.Component {
+                            state = {
+                                status: 'list', 
+                                selectedItem: null, 
+                                scrollTop: 0, 
+                                scrollingElement: null, 
+                                justRenderedList: false, 
+                                justRenderedItem: false, 
+                                forms: [
+                                    
+                                ], 
+                                current: {
+                                    status: 'list', 
+                                    selectedItem: null, 
+                                    scrollTop: 0, 
+                                    scrollingElement: null, 
+                                    justRenderedList: false, 
+                                    depth: 0, 
+                                    title: 'People'
+                                 }
+                             };
+                            componentDidMount() {
+                                window.addEventListener('scroll', this.handlePaperScroll);
+                                this.props.onChangeCurrent(this.state.current, this.handlePersonClose, this.handleChangeSearch);
+                            }
+                            componentWillUnmount() {
+                                window.removeEventListener('scroll', this.handlePaperScroll);
+                            }
+                            componentDidUpdate(prevProps, prevState) {
+                                if (this.state.current.justRenderedList) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, this.state.current.scrollTop);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedList: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                                if (this.state.current.justRenderedItem) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, 0);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedItem: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePaperScroll = (ev) => {
+                                if (this.state.current.status == 'list') {
+                                    if (ev.target.scrollingElement) {
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        scrollTop: event.target.scrollingElement.scrollTop, 
+                                                        scrollingElement: event.target.scrollingElement
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePersonClose = () => {
+                                this.setState((prevState) => {
+                                
+                                    var current = prevState.forms.pop();
+                                    if (current.status == 'list') {
+                                        current.justRenderedList = true;
+                                        current.depth = prevState.forms.length;
+                                        current.title = 'People';
+                                        current.selectedItem = null;
+                                    }
+                                    this.props.onChangeCurrent(current, this.handlePersonClose, this.handleChangeSearch);
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            handleChangeSearch = (ev) => {
+                                var search = ev.target.value;
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            current: {
+                                                ...prevState.current, 
+                                                searchText: search
+                                             }
+                                         };
+                                }
+                                )
+                            }
+                            handlePersonOpen = (ev, selectedItem) => {
+                                // log 'handlePersonOpen.id', selectedItem.id
+                                // log 'handlePersonOpen.ev', ev
+                                this.setState((prevState) => {
+                                
+                                    // log 'handlePersonOpen'
+                                    prevState.forms.push(prevState.current)
+                                    var current = {
+                                        ...prevState.current, 
+                                        status: 'person', 
+                                        selectedItem: selectedItem, 
+                                        depth: prevState.forms.length, 
+                                        title: (selectedItem.title && selectedItem.title.text) || selectedItem.id, 
+                                        justRenderedItem: true
+                                     };
+                                    this.props.onChangeCurrent(current, this.handlePersonClose, this.handleChangeSearch);
+                                    // log 'onChangeCurrent called'
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            render() {
+                                const {
+                                    classes,
+                                    jsonData,
+                                    selectedState
+                                } = this.props;
+                                const {
+                                    status, 
+                                    selectedItem, 
+                                    searchText
+                                 } = this.state.current;
+                                // log 'PersonList.render', status, selectedItem
+                                return  (
+                                        <div>
+                                            <Paper style={{maxHeight: '90%', maxWidth:800, padding:10, overflow: 'auto'}}>
+                                            {
+                                                status == 'list'
+                                                 &&  (
+                                                        <div>
+                                                        {
+                                                            jsonData.persons.sort(compareByDate).map((item, ndx) => {
+                                                            
+                                                                if (dbFilterIdAndTitleState(item, searchText, selectedState)) {
+                                                                    return  (
+                                                                            <PersonListItem key={ndx} item={item} classes={classes} onClick={this.handlePersonOpen}>
+                                                                            </PersonListItem>
+                                                                        )
+                                                                    ;
+                                                                }
+                                                            }
+                                                            )
+                                                        }
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            {
+                                                status == 'person'
+                                                 &&  (
+                                                        <div>
+                                                            <Person item={selectedItem} jsonData={jsonData}>
+                                                            </Person>
+                                                        
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            </Paper>
+                                        
+                                        </div>
+                                    )
+                                ;
+                            }
+                        }
+                        function PersonListItem(props) {
+                            const {item, onClick, classes} = props;
+                            const {id} = item;
+                            const title = extractTitle(item);
+                            // log 'PersonListItem', title, id, item
+                            return  (
+                                    <div onClick={event => 
+                                    
+                                        onClick(event, item)
+                                    }>
+                                        <div className="li-c-title">
+                                        {title}
+                                        </div>
+                                    
+                                        <div className="li-c-id">
+                                        id: {id}
+                                        </div>
+                                    
+                                        <div className="li-clear">
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function Person(props) {
+                            var {item, jsonData} = props;
+                            return  (
+                                    <div>
+                                        <div>
+                                            <div className="li-clear">
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    {
+                                        item.wiki
+                                         &&  (
+                                                <WikiPanel item={item.wiki} jsonData={jsonData}>
+                                                </WikiPanel>
+                                            )
+                                        
+                                    }
+                                    </div>
+                                )
+                            ;
+                        }
+                        class StateList extends React.Component {
+                            state = {
+                                status: 'list', 
+                                selectedItem: null, 
+                                scrollTop: 0, 
+                                scrollingElement: null, 
+                                justRenderedList: false, 
+                                justRenderedItem: false, 
+                                forms: [
+                                    
+                                ], 
+                                current: {
+                                    status: 'list', 
+                                    selectedItem: null, 
+                                    scrollTop: 0, 
+                                    scrollingElement: null, 
+                                    justRenderedList: false, 
+                                    depth: 0, 
+                                    title: 'States'
+                                 }
+                             };
+                            componentDidMount() {
+                                window.addEventListener('scroll', this.handlePaperScroll);
+                                this.props.onChangeCurrent(this.state.current, this.handleStateClose, this.handleChangeSearch);
+                            }
+                            componentWillUnmount() {
+                                window.removeEventListener('scroll', this.handlePaperScroll);
+                            }
+                            componentDidUpdate(prevProps, prevState) {
+                                if (this.state.current.justRenderedList) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, this.state.current.scrollTop);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedList: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                                if (this.state.current.justRenderedItem) {
+                                    if (this.state.current.scrollingElement) {
+                                        this.state.current.scrollingElement.scrollTo(0, 0);
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        justRenderedItem: false
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handlePaperScroll = (ev) => {
+                                if (this.state.current.status == 'list') {
+                                    if (ev.target.scrollingElement) {
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    current: {
+                                                        ...prevState.current, 
+                                                        scrollTop: event.target.scrollingElement.scrollTop, 
+                                                        scrollingElement: event.target.scrollingElement
+                                                     }
+                                                 };
+                                        }
+                                        )
+                                    }
+                                }
+                            }
+                            handleStateClose = () => {
+                                this.setState((prevState) => {
+                                
+                                    var current = prevState.forms.pop();
+                                    if (current.status == 'list') {
+                                        current.justRenderedList = true;
+                                        current.depth = prevState.forms.length;
+                                        current.title = 'States';
+                                        current.selectedItem = null;
+                                    }
+                                    this.props.onChangeCurrent(current, this.handleStateClose, this.handleChangeSearch);
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            handleChangeSearch = (ev) => {
+                                var search = ev.target.value;
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            current: {
+                                                ...prevState.current, 
+                                                searchText: search
+                                             }
+                                         };
+                                }
+                                )
+                            }
+                            handleStateOpen = (ev, selectedItem) => {
+                                // log 'handleStateOpen.id', selectedItem.id
+                                // log 'handleStateOpen.ev', ev
+                                this.setState((prevState) => {
+                                
+                                    // log 'handleStateOpen'
+                                    prevState.forms.push(prevState.current)
+                                    var current = {
+                                        ...prevState.current, 
+                                        status: 'state', 
+                                        selectedItem: selectedItem, 
+                                        selectedState: selectedItem.id, 
+                                        depth: prevState.forms.length, 
+                                        title: (selectedItem.title && selectedItem.title.text) || selectedItem.id, 
+                                        justRenderedItem: true
+                                     };
+                                    this.props.onChangeCurrent(current, this.handleStateClose, this.handleChangeSearch);
+                                    // log 'onChangeCurrent called'
+                                    return {
+                                            ...prevState, 
+                                            current: current
+                                         };
+                                }
+                                )}
+                            render() {
+                                const {
+                                    classes,
+                                    jsonData
+                                } = this.props;
+                                const {
+                                    status, 
+                                    selectedItem, 
+                                    searchText
+                                 } = this.state.current;
+                                // log 'StateList.render', status, selectedItem
+                                return  (
+                                        <div>
+                                            <Paper style={{maxHeight: '90%', maxWidth:800, padding:10, overflow: 'auto'}}>
+                                            {
+                                                status == 'list'
+                                                 &&  (
+                                                        <div>
+                                                        {
+                                                            jsonData.states.sort(compareById).map((item, ndx) => {
+                                                            
+                                                                if (dbFilterIdAndTitle(item, searchText)) {
+                                                                    return  (
+                                                                            <StateListItem key={ndx} item={item} classes={classes} onClick={this.handleStateOpen}>
+                                                                            </StateListItem>
+                                                                        )
+                                                                    ;
+                                                                }
+                                                            }
+                                                            )
+                                                        }
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            {
+                                                status == 'state'
+                                                 &&  (
+                                                        <div>
+                                                            <State item={selectedItem} jsonData={jsonData}>
+                                                            </State>
+                                                        
+                                                        </div>
+                                                    )
+                                                
+                                            }
+                                            </Paper>
+                                        
+                                        </div>
+                                    )
+                                ;
+                            }
+                        }
+                        function StateListItem(props) {
+                            const {item, onClick, classes} = props;
+                            const {id} = item;
+                            const title = extractTitle(item);
+                            // log 'StateListItem', title, id, item
+                            return  (
+                                    <div onClick={event => 
+                                    
+                                        onClick(event, item)
+                                    }>
+                                        <div className="li-c-title">
+                                        {title}
+                                        </div>
+                                    
+                                        <div className="li-c-id">
+                                        id: {id}
+                                        </div>
+                                    
+                                        <div className="li-clear">
+                                        </div>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        function State(props) {
+                            var {item, jsonData} = props;
+                            return  (
+                                    <div>
+                                        <div>
+                                            <div className="li-clear">
+                                            </div>
+                                        
+                                        </div>
+                                    
+                                    {
+                                        item.wiki
+                                         &&  (
+                                                <WikiPanel item={item.wiki} jsonData={jsonData}>
+                                                </WikiPanel>
+                                            )
+                                        
+                                    }
+                                    </div>
+                                )
+                            ;
+                        }
+                        function WikiPanel(props) {
+                            var {item, jsonData, handleOpen} = props;
+                            var {url, contents} = item;
+                            console.log('WikiPanel', url, contents);
+                            return  (
+                                    <div className="bar">
+                                        <div>
+                                            <a href={url} target="_blank">
+                                            wikipedia
+                                            </a>
+                                        
+                                        </div>
+                                    
+                                        <ContentText item={item} jsonData={jsonData} handleOpen={handleOpen}>
+                                        </ContentText>
+                                    
+                                    </div>
+                                )
+                            ;
+                        }
+                        const styles = theme => (
+                            {
+                                root: {
+                                    display: 'flex'
+                                 }, 
+                                appBar: {
+                                    transition: theme.transitions.create([
+                                        'margin', 
+                                        'width'
+                                    ], {
+                                        easing: theme.transitions.easing.sharp, 
+                                        duration: theme.transitions.duration.leavingScreen
+                                     })
+                                 }, 
+                                appBarShift: {
+                                    width: `calc(100% - ${g_drawerWidth}px)`, 
+                                    marginLeft: g_drawerWidth, 
+                                    transition: theme.transitions.create([
+                                        'margin', 
+                                        'width'
+                                    ], {
+                                        easing: theme.transitions.easing.easeOut, 
+                                        duration: theme.transitions.duration.enteringScreen
+                                     })
+                                 }, 
+                                menuButton: {
+                                    marginLeft: 12, 
+                                    marginRight: 20
+                                 }, 
+                                hide: {
+                                    display: 'none'
+                                 }, 
+                                drawer: {
+                                    width: g_drawerWidth, 
+                                    flexShrink: 0
+                                 }, 
+                                drawerPaper: {
+                                    width: g_drawerWidth
+                                 }, 
+                                drawerHeader: {
+                                    display: 'flex', 
+                                    alignItems: 'center', 
+                                    padding: '0 8px', 
+                                    ...theme.mixins.toolbar, 
+                                    justifyContent: 'flex-end'
+                                 }, 
+                                title: {
+                                    flexGrow: 1
+                                 }, 
+                                db: {
+                                    padding: '0 20px'
+                                 }, 
+                                content: {
+                                    flexGrow: 1, 
+                                    padding: theme.spacing.unit * 3, 
+                                    transition: theme.transitions.create('margin', {
+                                        easing: theme.transitions.easing.sharp, 
+                                        duration: theme.transitions.duration.leavingScreen
+                                     }), 
+                                    marginLeft: -g_drawerWidth
+                                 }, 
+                                contentShift: {
+                                    transition: theme.transitions.create('margin', {
+                                        easing: theme.transitions.easing.easeOut, 
+                                        duration: theme.transitions.duration.enteringScreen
+                                     }), 
+                                    marginLeft: 0
+                                 }, 
+                                geop: {
+                                    fontSize: '2em', 
+                                    fontWeight: '700'
+                                 }, 
+                                search: {
+                                    position: 'relative', 
+                                    borderRadius: theme.shape.borderRadius, 
+                                    backgroundColor: fade(theme.palette.common.white, 0.15), 
+                                    '&:hover': {
+                                        backgroundColor: fade(theme.palette.common.white, 0.25)
+                                     }, 
+                                    marginLeft: 0, 
+                                    width: '100%', 
+                                    [theme.breakpoints.up('sm')]: {
+                                        marginLeft: theme.spacing(1), 
+                                        width: 'auto'
+                                     }
+                                 }, 
+                                searchIcon: {
+                                    padding: theme.spacing(0, 2), 
+                                    height: '100%', 
+                                    position: 'absolute', 
+                                    pointerEvents: 'none', 
+                                    display: 'flex', 
+                                    alignItems: 'center', 
+                                    justifyContent: 'center'
+                                 }, 
+                                inputRoot: {
+                                    color: 'inherit'
+                                 }, 
+                                inputInput: {
+                                    padding: theme.spacing(1, 1, 1, 0), 
+                                    paddingLeft: `calc(1em + ${theme.spacing(4)}px)`, 
+                                    transition: theme.transitions.create('width'), 
+                                    width: '100%', 
+                                    [theme.breakpoints.up('sm')]: {
+                                        
+                                     }, 
+                                    width: '12ch', 
+                                    '&:focus': {
+                                        width: '20ch'
+                                     }
+                                 }
+                             });
+                        
+                        class Index extends React.Component {
+                            state = {
+                                isLoading: true, 
+                                jsonData: {}, 
+                                error: null, 
+                                open: true, 
+                                selectedView: g_startView, 
+                                selectedTitle: '', 
+                                selectedState: 'world', 
+                                showArrowBack: false, 
+                                onArrowBack: null
+                             };
+                            handleDrawerOpen = () => {
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            open: true
+                                         };
+                                }
+                                )}
+                            handleDrawerClose = () => {
+                                console.log('handleDrawerClose');
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            open: false
+                                         };
+                                }
+                                )
+                            }
+                            handleSelectView = (event, name) => {
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            selectedView: name
+                                         };
+                                }
+                                )}
+                            handleChangeCurrent = (current, onArrowBack, onChangeSearch) => {
+                                this.setState((prevState) => {
+                                
+                                    return {
+                                            ...prevState, 
+                                            showArrowBack: current.depth > 0, 
+                                            selectedTitle: current.title, 
+                                            selectedState: (current.selectedState || prevState.selectedState), 
+                                            onArrowBack: onArrowBack, 
+                                            onChangeSearch: onChangeSearch
+                                         };
+                                }
+                                )}
+                            handleArrowBack = () => {
+                                if (this.state.onArrowBack) {
+                                    this.state.onArrowBack();
+                                }
+                            }
+                            handleChangeSearch = (ev) => {
+                                if (this.state.onChangeSearch) {
+                                    this.state.onChangeSearch(ev);
+                                }
+                            }
+                            componentDidMount() {
+                                if (false) {
+                                    this.setState({
+                                        jsonData: jsonData, 
+                                        isLoading: false, 
+                                        error: null
+                                     })
+                                }
+                                else {
+                                    loadJSON("./json/" + g_jsondataFileName, (response) => {
+                                    
+                                        var jsonresponse = JSON.parse(response);
+                                        // log 'from did mount', jsonresponse
+                                        this.setState((prevState) => {
+                                        
+                                            return {
+                                                    ...prevState, 
+                                                    jsonData: jsonresponse, 
+                                                    isLoading: false, 
+                                                    error: null
+                                                 };
+                                        }
+                                        )
+                                    }
+                                    )
+                                }
+                            }
+                            render() {
+                                const {
+                                    classes,
+                                    theme,
+                                    
+                                } = this.props;
+                                console.log('state', this.state);
+                                const {
+                                    isLoading, 
+                                    jsonData, 
+                                    error, 
+                                    open, 
+                                    selectedView, 
+                                    selectedTitle, 
+                                    selectedState, 
+                                    showArrowBack
+                                 } = this.state;
+                                const dbTitle = g_dbTitle;
+                                return  (
+                                        <div className={classes.root}>
+                                            <CssBaseline />
+                                                <AppBar position="fixed" className={classNames(classes.appBar, {
+                                                    [classes.appBarShift]: open
+                                                 })}>
+                                                    <Toolbar disableGutters={!open}>
+                                                        <IconButton color="inherit" aria-label="Open drawer" onClick={this.handleDrawerOpen} className={classNames(classes.menuButton, open && classes.hide)}>
+                                                            <Icon>
+                                                            menu
+                                                            </Icon>
+                                                        
+                                                        </IconButton>
+                                                    
+                                                    {
+                                                        showArrowBack
+                                                         &&  (
+                                                                <IconButton color="inherit" aria-label="Go back" onClick={this.handleArrowBack} className={classNames(classes.menuButton)}>
+                                                                    <Icon>
+                                                                    arrow_back
+                                                                    </Icon>
+                                                                
+                                                                </IconButton>
+                                                            )
+                                                        
+                                                    }
+                                                        <Typography variant="h6" color="inherit" noWrap edge="end" className={classes.title}>
+                                                        {selectedTitle}
+                                                        </Typography>
+                                                    
+                                                    {
+                                                        !(isMobile() && g_activeViews.indexOf(selectedTitle) < 0)
+                                                         &&  (
+                                                                <div className={classes.search}>
+                                                                    <div className={classes.searchIcon}>
+                                                                        <Icon>
+                                                                        search
+                                                                        </Icon>
+                                                                    
+                                                                    </div>
+                                                                
+                                                                    <InputBase placeholder="Search…" classes={{root: classes.inputRoot, input: classes.inputInput,}} inputProps={{ 'aria-label': 'search' }} onChange={this.handleChangeSearch}>
+                                                                    </InputBase>
+                                                                
+                                                                </div>
+                                                            )
+                                                        
+                                                    }
+                                                        <Typography variant="h6" color="inherit" noWrap edge="end" className={classes.db}>
+                                                        {dbTitle} DB
+                                                        </Typography>
+                                                    
+                                                    </Toolbar>
+                                                
+                                                </AppBar>
+                                            
+                                                <Drawer className={classes.drawer} variant="persistent" anchor="left" open={open} classes={{
+                                                    paper: classes.drawerPaper
+                                                 }}>
+                                                    <div className={classes.drawerHeader}>
+                                                        <span className={classes.geop}>
+                                                        {selectedState}
+                                                        </span>
+                                                    
+                                                        <IconButton onClick={this.handleDrawerClose}>
+                                                        {
+                                                            theme.direction === 'ltr' ?  (
+                                                                    <Icon>
+                                                                    chevron_left
+                                                                    </Icon>
+                                                                )
+                                                             :  (
+                                                                    <Icon>
+                                                                    chevron_right
+                                                                    </Icon>
+                                                                )
+                                                            
+                                                        }
+                                                        </IconButton>
+                                                    
+                                                    </div>
+                                                
+                                                    <Divider />
+                                                        <List>
+                                                        {
+                                                            g_allViews.map((text, index) =>  (
+                                                                    <ListItem button key={index} disabled={selectedView == text || g_activeViews.indexOf(text) < 0} onClick={event => 
+                                                                    
+                                                                        this.handleSelectView(event, text)
+                                                                    }>
+                                                                        <ListItemIcon>
+                                                                        {
+                                                                            index % 2 === 0 ?  (
+                                                                                    <Icon>
+                                                                                    inbox
+                                                                                    </Icon>
+                                                                                )
+                                                                             :  (
+                                                                                    <Icon>
+                                                                                    mail
+                                                                                    </Icon>
+                                                                                )
+                                                                            
+                                                                        }
+                                                                        </ListItemIcon>
+                                                                    
+                                                                        <ListItemText primary={text}>
+                                                                        </ListItemText>
+                                                                    
+                                                                    </ListItem>
+                                                                )
+                                                            )
+                                                        }
+                                                        </List>
+                                                    
+                                                        <Divider />
+                                                            <List>
+                                                            {
+                                                                [
+                                                                    'Panoramica', 
+                                                                    'Schema'
+                                                                ].map((text, index) =>  (
+                                                                        <ListItem button key={text} disabled={[].indexOf(text) < 0} onClick={event => 
+                                                                        
+                                                                            this.handleSelectView(event, text)
+                                                                        }>
+                                                                            <ListItemIcon>
+                                                                            {
+                                                                                index % 2 === 0 ?  (
+                                                                                        <Icon>
+                                                                                        inbox
+                                                                                        </Icon>
+                                                                                    )
+                                                                                 :  (
+                                                                                        <Icon>
+                                                                                        mail
+                                                                                        </Icon>
+                                                                                    )
+                                                                                
+                                                                            }
+                                                                            </ListItemIcon>
+                                                                        
+                                                                            <ListItemText primary={text}>
+                                                                            </ListItemText>
+                                                                        
+                                                                        </ListItem>
+                                                                    )
+                                                                )
+                                                            }
+                                                            </List>
+                                                        
+                                                        </Drawer>
+                                                    
+                                                        <main className={classNames(classes.content, {
+                                                            [classes.contentShift]: open
+                                                         })}>
+                                                        {
+                                                            !(isMobile() && open)
+                                                             &&  (
+                                                                    <div>
+                                                                        <div className={classes.drawerHeader}>
+                                                                        </div>
+                                                                    
+                                                                    {
+                                                                        selectedView == 'Panoramica'
+                                                                         &&  (
+                                                                                <p>
+                                                                                Panoramica
+                                                                                </p>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'Schema'
+                                                                         &&  (
+                                                                                <p>
+                                                                                Schema
+                                                                                </p>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'Periods' && isLoading == false
+                                                                         &&  (
+                                                                                <PeriodList jsonData={jsonData} selectedState={selectedState} onChangeCurrent={this.handleChangeCurrent}>
+                                                                                </PeriodList>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'Alliances' && isLoading == false
+                                                                         &&  (
+                                                                                <AllianceList jsonData={jsonData} selectedState={selectedState} onChangeCurrent={this.handleChangeCurrent}>
+                                                                                </AllianceList>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'Events' && isLoading == false
+                                                                         &&  (
+                                                                                <EventList jsonData={jsonData} selectedState={selectedState} onChangeCurrent={this.handleChangeCurrent}>
+                                                                                </EventList>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'Treaties' && isLoading == false
+                                                                         &&  (
+                                                                                <TreatyList jsonData={jsonData} selectedState={selectedState} onChangeCurrent={this.handleChangeCurrent}>
+                                                                                </TreatyList>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'Acts' && isLoading == false
+                                                                         &&  (
+                                                                                <ActList jsonData={jsonData} selectedState={selectedState} onChangeCurrent={this.handleChangeCurrent}>
+                                                                                </ActList>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'Agents' && isLoading == false
+                                                                         &&  (
+                                                                                <AgentList jsonData={jsonData} selectedState={selectedState} onChangeCurrent={this.handleChangeCurrent}>
+                                                                                </AgentList>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'People' && isLoading == false
+                                                                         &&  (
+                                                                                <PersonList jsonData={jsonData} selectedState={selectedState} onChangeCurrent={this.handleChangeCurrent}>
+                                                                                </PersonList>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    {
+                                                                        selectedView == 'States' && isLoading == false
+                                                                         &&  (
+                                                                                <StateList jsonData={jsonData} selectedState={selectedState} onChangeCurrent={this.handleChangeCurrent}>
+                                                                                </StateList>
+                                                                            )
+                                                                        
+                                                                    }
+                                                                    </div>
+                                                                )
+                                                            
+                                                        }
+                                                        </main>
+                                                    
+                                                    </div>
+                                                )
+                                            ;
+                                        }
+                                    }
+                                    const App = withStyles(styles, { withTheme: true })(Index);
+                                    ReactDOM.render(
+                                        <App />
+                                        , document.getElementById('root'))
+    </script>
+</body>
+
+</html>
