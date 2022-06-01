@@ -2,7 +2,7 @@ wfjob philos
 
   $
     var ittf_models_folder     = path.join(__dirname, 'models');
-    var ittf_docs_folder       = path.join(__dirname, 'docs');
+    var ittf_app_folder       = path.join(__dirname, 'app');
     var ittf_db_folder         = path.join(__dirname, 'db');
     var dest_docs_folder       = path.join(__dirname, '..', '..', '..', 'docs');
     var dest_db_folder         = path.join(__dirname, '..', 'db');
@@ -22,7 +22,7 @@ wfjob philos
                 export-name site
 
   line docs
-		cwd-folder ${ittf_docs_folder}
+		cwd-folder ${ittf_app_folder}
 
 		artifact html documents
 			src ./**/*.html.ittf

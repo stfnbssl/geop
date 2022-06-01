@@ -33,7 +33,7 @@ $group
                     \b with the previously-intertwined French and English monarchies thereafter remaining separate.
 
         period tudor_period
-            title The Thirty Years' War
+            title The Tudor Period
             date
                 start 1485
                 end 1603
@@ -45,8 +45,8 @@ $group
                     \b Historian John Guy (1988) argued that "England was economically healthier, more expansive, 
                     \b and more optimistic under the Tudors" than at any time since the Roman occupation.
         
-        period tudor_period
-            title The Thirty Years' War
+        period stuart_period
+            title The Stuart Period
             date
                 start 1603
                 end 1714

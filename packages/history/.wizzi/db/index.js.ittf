@@ -1,5 +1,10 @@
 v07/plugin/examples/withMonoRepoWizziFactory()
 
+    #
+    # Script for the generation of the json file of the history db
+    # will be written inside the history/db folder
+    # 
+
     $append plugins
         [ items
             @ './index.js'
@@ -13,15 +18,15 @@ v07/plugin/examples/withMonoRepoWizziFactory()
 
     _ executeGenerateModules
         [
-            @ 'first'
+            @ 'history_gb'
         f_cb_no_throw(result)
             if err
-                log 'geop.examples.executeGenerateModules.err', err
-                log 'geop.examples.executeGenerateModules.err.toString()', err.toString()
+                log 'geop.executeGenerateModules.err', err
+                log 'geop.executeGenerateModules.err.toString()', err.toString()
                 if err.inner
-                    log 'geop.examples.executeGenerateModules.err.inner.toString()', err.inner.toString()
+                    log 'geop.executeGenerateModules.err.inner.toString()', err.inner.toString()
             else
-                log 'geop.examples.executeGenerateModules.result', result
+                log 'geop.executeGenerateModules.result', result
 
     function executeGenerateModules
         param modules
@@ -48,17 +53,6 @@ v07/plugin/examples/withMonoRepoWizziFactory()
                         @ 'json'
                         @ module + '.geop'
                 
-                $*
-                    _ loadModelAndGenerateArtifact
-                        @ ittfDocumentUri
-                        {
-                        @ 'geop/document'
-                        f_cb( artifactText )
-                            _ file.write
-                                @ outputPath
-                                @ artifactText
-                            r_cb( artifactText )
-                *$
                 _ loadWizziModel
                     @ ittfDocumentUri
                     {

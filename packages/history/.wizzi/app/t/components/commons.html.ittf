@@ -40,3 +40,14 @@ $group
             else
                 set title = title + ' (' + date + ')'
         return title
+
+    function extractPersonTitle
+        param item
+        var title = extractTitle(item)
+        if item.kind == 'king'
+            set title = 'King ' + title
+        elif item.kind == 'pretender'
+            set title = 'Pretender ' + title
+        elif item.kind == 'minister'
+            set title = 'Minister ' + title
+        return title        

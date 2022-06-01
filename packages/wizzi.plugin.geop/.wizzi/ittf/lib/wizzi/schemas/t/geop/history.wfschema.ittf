@@ -29,6 +29,12 @@ $group
     e house : item
     e inCharge : item
         tag in-charge
+    e regent : item
     e minister : item
     e primeMinister : item
         tag prime-minister
+    e foreignSecretary : item
+        tag foreign-secretary
+    e homeSecretary : item
+        tag home-secretary
+    e exchequer : item

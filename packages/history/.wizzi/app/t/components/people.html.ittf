@@ -76,7 +76,7 @@ $group
         param props
         const {item, onClick, classes} = props
         const {id} = item
-        const title = extractTitle(item)
+        const title = extractPersonTitle(item)
         # log 'PersonListItem', title, id, item
         return
             div

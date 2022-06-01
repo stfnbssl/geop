@@ -11,8 +11,8 @@ layouts/muiPage( theme )
 
     $append imports
         const g_appTitle = "History"
-        const g_dbTitle = "First"
-        const g_jsondataFileName = "first.geop.extended.json"
+        const g_dbTitle = "GB"
+        const g_jsondataFileName = "history_gb.geop.extended.json"
         const g_allViews
             [
                 @ 'Periods'

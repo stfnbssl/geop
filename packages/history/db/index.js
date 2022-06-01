@@ -192,18 +192,22 @@ var DEFAULT_MIME = {
     vtt: 'vtt', 
     vue: 'vue'
  };
+//
+// Script for the generation of the json file of the history db
+// will be written inside the history/db folder
+//
 executeGenerateModules([
-    'first'
+    'history_gb'
 ], function(err, result) {
     if (err) {
-        console.log('geop.examples.executeGenerateModules.err', err);
-        console.log('geop.examples.executeGenerateModules.err.toString()', err.toString());
+        console.log('geop.executeGenerateModules.err', err);
+        console.log('geop.executeGenerateModules.err.toString()', err.toString());
         if (err.inner) {
-            console.log('geop.examples.executeGenerateModules.err.inner.toString()', err.inner.toString());
+            console.log('geop.executeGenerateModules.err.inner.toString()', err.inner.toString());
         }
     }
     else {
-        console.log('geop.examples.executeGenerateModules.result', result);
+        console.log('geop.executeGenerateModules.result', result);
     }
 })
 function executeGenerateModules(modules, callback) {

@@ -515,7 +515,7 @@
             "ns": "states.great_britain",
             "contents": [],
             "title": {
-                "text": "The Thirty Years' War",
+                "text": "The Tudor Period",
                 "aliases": []
             },
             "date": {
@@ -532,12 +532,12 @@
             }
         },
         {
-            "id": "tudor_period",
+            "id": "stuart_period",
             "kind": "period",
             "ns": "states.great_britain",
             "contents": [],
             "title": {
-                "text": "The Thirty Years' War",
+                "text": "The Stuart Period",
                 "aliases": []
             },
             "date": {
@@ -5208,6 +5208,12 @@
             "id": "enrico_vii_tudor",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1485/8/22",
+                "end": "1509/4/21"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Enrico VII",
@@ -5218,10 +5224,6 @@
             "born": "1457/1/28",
             "died": "1509/4/21",
             "inCharge": {
-                "start": "1485/8/22",
-                "end": "1509/4/21"
-            },
-            "date": {
                 "start": "1485/8/22",
                 "end": "1509/4/21"
             },
@@ -5244,6 +5246,12 @@
             "id": "enrico_viii_tudor",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1509/4/22",
+                "end": "1547/1/28"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Enrico VIII",
@@ -5254,10 +5262,6 @@
             "born": "1491/1/28",
             "died": "1547/1/28",
             "inCharge": {
-                "start": "1509/4/22",
-                "end": "1547/1/28"
-            },
-            "date": {
                 "start": "1509/4/22",
                 "end": "1547/1/28"
             },
@@ -5283,6 +5287,12 @@
             "id": "edoardo_vi_tudor",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1547/1/28",
+                "end": "1553/7/6"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Edoardo VI",
@@ -5293,10 +5303,6 @@
             "born": "1537/8/12",
             "died": "1553/7/6",
             "inCharge": {
-                "start": "1547/1/28",
-                "end": "1553/7/6"
-            },
-            "date": {
                 "start": "1547/1/28",
                 "end": "1553/7/6"
             },
@@ -5319,6 +5325,12 @@
             "id": "maria_i_tudor",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1553/7",
+                "end": "1558/11/17"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Maria I",
@@ -5341,10 +5353,6 @@
                 "start": "1553/7",
                 "end": "1558/11/17"
             },
-            "date": {
-                "start": "1553/7",
-                "end": "1558/11/17"
-            },
             "wiki": {
                 "url": "https://en.wikipedia.org/wiki/Mary_I_of_England",
                 "contents": [
@@ -5364,6 +5372,12 @@
             "id": "elisabetta_i_tudor",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1558/11/17",
+                "end": "1603/3/24"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Elisabetta I",
@@ -5377,10 +5391,6 @@
                 "start": "1558/11/17",
                 "end": "1603/3/24"
             },
-            "date": {
-                "start": "1558/11/17",
-                "end": "1603/3/24"
-            },
             "wiki": {
                 "url": "https://it.wikipedia.org/wiki/Elisabetta_I_d%27Inghilterra",
                 "contents": []
@@ -5390,6 +5400,12 @@
             "id": "giacomo_i_stuart",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1603/3/24",
+                "end": "1625/3/27"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Giacomo I",
@@ -5403,10 +5419,6 @@
                 "start": "1603/3/24",
                 "end": "1625/3/27"
             },
-            "date": {
-                "start": "1603/3/24",
-                "end": "1625/3/27"
-            },
             "wiki": {
                 "url": "https://it.wikipedia.org/wiki/Giacomo_I_d%27Inghilterra",
                 "contents": []
@@ -5416,6 +5428,12 @@
             "id": "carlo_i_stuart",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1625/3/27",
+                "end": "1649/1/30"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Carlo I",
@@ -5429,10 +5447,6 @@
                 "start": "1625/3/27",
                 "end": "1649/1/30"
             },
-            "date": {
-                "start": "1625/3/27",
-                "end": "1649/1/30"
-            },
             "wiki": {
                 "url": "https://it.wikipedia.org/wiki/Carlo_I_d%27Inghilterra",
                 "contents": []
@@ -5442,6 +5456,12 @@
             "id": "giacomo_ii_stuart",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1685/2/6",
+                "end": "1688/12/23"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [
                 {
                     "line": "was King of England and King of Ireland as James II, and King of Scotland as James VII from the death of his elder brother, Charles II, on 6 February 1685. He was deposed in the Glorious Revolution of 1688. He was the last Catholic monarch of England, Scotland, and Ireland. His reign is now remembered primarily for struggles over religious tolerance, but it also involved struggles over the principles of absolutism and the divine right of kings. His deposition ended a century of political and civil strife in England by confirming the primacy of the English Parliament over the Crown."
@@ -5459,10 +5479,6 @@
                 "start": "1685/2/6",
                 "end": "1688/12/23"
             },
-            "date": {
-                "start": "1685/2/6",
-                "end": "1688/12/23"
-            },
             "wiki": {
                 "url": "https://en.wikipedia.org/wiki/James_II_of_England",
                 "contents": []
@@ -5472,6 +5488,12 @@
             "id": "giacomo_iii_stuart",
             "kind": "pretender",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1688/12/23",
+                "end": "1766/1/1"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Giacomo III",
@@ -5485,6 +5507,10 @@
             "house": "Stuart",
             "born": "1688/6/10",
             "died": "1766/1/1",
+            "inCharge": {
+                "start": "1688/12/23",
+                "end": "1766/1/1"
+            },
             "wiki": {
                 "url": "https://en.wikipedia.org/wiki/James_Francis_Edward_Stuart",
                 "contents": [
@@ -5498,6 +5524,12 @@
             "id": "carlo_iii_stuart",
             "kind": "pretender",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1766/1/1",
+                "end": "1788/1/30"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "Carlo III",
@@ -5520,6 +5552,10 @@
             "house": "Stuart",
             "born": "1720/12/20",
             "died": "1788/1/30",
+            "inCharge": {
+                "start": "1766/1/1",
+                "end": "1788/1/30"
+            },
             "wiki": {
                 "url": "https://en.wikipedia.org/wiki/Charles_Edward_Stuart",
                 "contents": [
@@ -5533,6 +5569,12 @@
             "id": "william_iii_orange_nassau",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1685/2/6",
+                "end": "1688/12/23"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "William III",
@@ -5548,10 +5590,6 @@
             "born": "1650/11/4",
             "died": "1702/3/8",
             "inCharge": {
-                "start": "1685/2/6",
-                "end": "1688/12/23"
-            },
-            "date": {
                 "start": "1685/2/6",
                 "end": "1688/12/23"
             },
@@ -5574,6 +5612,12 @@
             "id": "george_i_hannover",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1714/8/1",
+                "end": "1727/6/11"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "George I",
@@ -5584,10 +5628,6 @@
             "born": "1660/5/28",
             "died": "1727/6/11",
             "inCharge": {
-                "start": "1714/8/1",
-                "end": "1727/6/11"
-            },
-            "date": {
                 "start": "1714/8/1",
                 "end": "1727/6/11"
             },
@@ -5610,6 +5650,12 @@
             "id": "george_ii_hannover",
             "kind": "king",
             "ns": "states.great_britain",
+            "date": {
+                "start": "1727/6/11",
+                "end": "1760/10/26"
+            },
+            "memberships": [],
+            "works": [],
             "contents": [],
             "title": {
                 "text": "George II",
@@ -5620,10 +5666,6 @@
             "born": "1683/10/30",
             "died": "1760/10/26",
             "inCharge": {
-                "start": "1727/6/11",
-                "end": "1760/10/26"
-            },
-            "date": {
                 "start": "1727/6/11",
                 "end": "1760/10/26"
             },
@@ -5641,6 +5683,654 @@
                     },
                     {
                         "line": "For two centuries after George II's death, history tended to view him with disdain, concentrating on his mistresses, short temper, and boorishness. Since then, reassessment of his legacy has led scholars to conclude that he exercised more influence in foreign policy and military appointments than previously thought."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "george_iii_hannover",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1760/8/25",
+                "end": "1820/1/29"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "George III",
+                "aliases": [],
+                "it": "Giorgio III"
+            },
+            "house": "Hannover",
+            "born": "1738/6/4",
+            "died": "1820/1/29",
+            "inCharge": {
+                "start": "1760/8/25",
+                "end": "1820/1/29"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/George_II_of_Great_Britain",
+                "contents": [
+                    {
+                        "line": "George III was King of Great Britain and of Ireland from 25 October 1760 until the union of the two kingdoms on 1 January 1801, after which he was King of the United Kingdom of Great Britain and Ireland until his death in 1820. He was concurrently Duke and Prince-elector of Brunswick-Lüneburg (\"Hanover\") in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover but, unlike his two predecessors, he was born in Great Britain, spoke English as his first language and never visited Hanover."
+                    },
+                    {
+                        "line": "George's life and reign, which were longer than those of any of his predecessors, were marked by a series of military conflicts involving his kingdoms, much of the rest of Europe, and places farther afield in Africa, the Americas and Asia. Early in his reign, Great Britain defeated France in the Seven Years' War, becoming the dominant European power in North America and India. However, many of Britain's American colonies were soon lost in the American War of Independence. Further wars against revolutionary and Napoleonic France from 1793 concluded in the defeat of Napoleon at the Battle of Waterloo in 1815. In 1807, the transatlantic slave trade was banned from the British Empire."
+                    },
+                    {
+                        "line": "In the later part of his life, George had recurrent, and eventually permanent, mental illness. Although it has since been suggested that he had bipolar disorder or the blood disease porphyria, the cause of his illness remains unknown. George suffered a final relapse in 1810, and his eldest son, the Prince of Wales, became Prince Regent the following year. When George III died in 1820, the Regent succeeded him as King George IV. Historical analysis of George III's life has gone through a \"kaleidoscope of changing views\" that have depended heavily on the prejudices of his biographers and the sources available to them."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "george_iv_hannover",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1820/1/29",
+                "end": "1830/6/26"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "George IV",
+                "aliases": [],
+                "it": "Giorgio IV"
+            },
+            "house": "Hannover",
+            "born": "1762/8/12",
+            "died": "1830/6/26",
+            "regent": {
+                "start": "1811/2/5",
+                "end": "1820/1/29"
+            },
+            "inCharge": {
+                "start": "1820/1/29",
+                "end": "1830/6/26"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/George_IV",
+                "contents": [
+                    {
+                        "line": "George IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from the death of his father, King George III, on 29 January 1820 until his own death ten years later. He had already been serving as Prince Regent since 5 February 1811, during his father's final mental illness."
+                    },
+                    {
+                        "line": "George IV was the eldest child of King George III and Queen Charlotte. He led an extravagant lifestyle that contributed to the fashions of the Regency era. He was a patron of new forms of leisure, style and taste. He commissioned John Nash to build the Royal Pavilion in Brighton and remodel Buckingham Palace, and commissioned Jeffry Wyatville to rebuild Windsor Castle. George's charm and culture earned him the title \"the first gentleman of England\", but his dissolute way of life and poor relationships with his parents and his wife, Caroline of Brunswick, earned him the contempt of the people and dimmed the prestige of the monarchy. He excluded Caroline from his coronation and asked the government to introduce the unpopular Pains and Penalties Bill in an unsuccessful attempt to divorce her."
+                    },
+                    {
+                        "line": "Despite presiding over the British Empire's emergence as a global hegemon, his rule was tarnished by scandal and financial extravagance. His ministers found his behaviour selfish, unreliable and irresponsible, and he was strongly influenced by favourites. During most of George's regency and reign, Lord Liverpool controlled the government as Prime Minister of the United Kingdom. Liverpool's government presided over Britain's ultimate victory over Napoleon and negotiated a peace settlement with the French. After Liverpool's retirement, George IV was forced to accept Catholic emancipation despite opposing it. His only legitimate child, Princess Charlotte, predeceased him in 1817, so he was succeeded by his younger brother, King William IV."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "william_iv_hannover",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1830/6/26",
+                "end": "1837/6/20"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "William IV",
+                "aliases": [],
+                "it": "Guglielmo IV"
+            },
+            "house": "Hannover",
+            "born": "1765/8/21",
+            "died": "1837/6/20",
+            "inCharge": {
+                "start": "1830/6/26",
+                "end": "1837/6/20"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/William_IV",
+                "contents": [
+                    {
+                        "line": "William IV was King of the United Kingdom of Great Britain and Ireland and King of Hanover from 26 June 1830 until his death in 1837. The third son of George III, William succeeded his elder brother George IV, becoming the last king and penultimate monarch of Britain's House of Hanover."
+                    },
+                    {
+                        "line": "William served in the Royal Navy in his youth, spending time in North America and the Caribbean, and was later nicknamed the \"Sailor King\". In 1789, he was created Duke of Clarence and St Andrews. In 1827, he was appointed as Britain's first Lord High Admiral since 1709. As his two older brothers died without leaving legitimate issue, he inherited the throne when he was 64 years old. His reign saw several reforms: the poor law was updated, child labour restricted, slavery abolished in nearly all of the British Empire, and the British electoral system refashioned by the Reform Act 1832. Although William did not engage in politics as much as his brother or his father, he was the last British monarch to appoint a prime minister contrary to the will of Parliament. He granted his German kingdom a short-lived liberal constitution."
+                    },
+                    {
+                        "line": "At the time of his death, William had no surviving legitimate children, but he was survived by eight of the ten illegitimate children he had by the actress Dorothea Jordan, with whom he cohabited for twenty years. Late in life, he married and apparently remained faithful to Princess Adelaide of Saxe-Meiningen. William was succeeded by his niece Victoria in the United Kingdom and his brother Ernest Augustus in Hanover."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "victoria_hannover",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1837/6/20",
+                "end": "1901/1/22"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "Victoria",
+                "aliases": [],
+                "it": "Victoria"
+            },
+            "house": "Hannover",
+            "born": "1819/5/24",
+            "died": "1901/1/22",
+            "inCharge": {
+                "start": "1837/6/20",
+                "end": "1901/1/22"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/Queen_Victoria",
+                "contents": [
+                    {
+                        "line": "Victoria was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901. Known as the Victorian era, her reign of 63 years and seven months was longer than any previous British monarch. It was a period of industrial, political, scientific, and military change within the United Kingdom, and was marked by a great expansion of the British Empire. In 1876, the British Parliament voted to grant her the additional title of Empress of India."
+                    },
+                    {
+                        "line": "Victoria was the daughter of Prince Edward, Duke of Kent and Strathearn (the fourth son of King George III), and Princess Victoria of Saxe-Coburg-Saalfeld. After the deaths of her father and grandfather in 1820, she was raised under close supervision by her mother and her comptroller, John Conroy. She inherited the throne aged 18 after her father's three elder brothers died without surviving legitimate issue. A constitutional monarch, Victoria privately attempted to influence government policy and ministerial appointments; publicly, she became a national icon who was identified with strict standards of personal morality."
+                    },
+                    {
+                        "line": "Victoria married her first cousin Prince Albert of Saxe-Coburg and Gotha in 1840. Their children married into royal and noble families across the continent, earning Victoria the sobriquet \"the grandmother of Europe\" and spreading haemophilia in European royalty. After Albert's death in 1861, Victoria plunged into deep mourning and avoided public appearances. As a result of her seclusion, British republicanism temporarily gained strength, but in the latter half of her reign, her popularity recovered. Her Golden and Diamond Jubilees were times of public celebration. She died on the Isle of Wight in 1901. The last British monarch of the House of Hanover, she was succeeded by her son Edward VII of the House of Saxe-Coburg and Gotha."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "edward_vii_saxe_coburg_and_gotha",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1901/1/22",
+                "end": "1910/5/6"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "Edward VII",
+                "aliases": [],
+                "it": "Edoardo VII"
+            },
+            "house": "Saxe-Coburg and Gotha",
+            "born": "1841/11/9",
+            "died": "1910/5/6",
+            "inCharge": {
+                "start": "1901/1/22",
+                "end": "1910/5/6"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/Edward_VII",
+                "contents": [
+                    {
+                        "line": "Edward VII was King of the United Kingdom of Great Britain and Ireland and the British Dominions, and Emperor of India, from 22 January 1901 until his death in 1910."
+                    },
+                    {
+                        "line": "The oldest son of Queen Victoria and Prince Albert of Saxe-Coburg and Gotha, and nicknamed \"Bertie\", Edward was related to royalty throughout Europe. He was Prince of Wales and heir apparent to the British throne for almost 60 years. During the long reign of his mother, he was largely excluded from political influence and came to personify the fashionable, leisured elite. He travelled throughout Britain performing ceremonial public duties and represented Britain on visits abroad. His tours of North America in 1860 and of the Indian subcontinent in 1875 proved popular successes, but despite public approval, his reputation as a playboy prince soured his relationship with his mother."
+                    },
+                    {
+                        "line": "As king, Edward played a role in the modernisation of the British Home Fleet and the reorganisation of the British Army after the Second Boer War of 1899–1902. He re-instituted traditional ceremonies as public displays and broadened the range of people with whom royalty socialised. He fostered good relations between Britain and other European countries, especially France, for which he was popularly called \"Peacemaker\", but his relationship with his nephew, the German Emperor Wilhelm II, was poor. The Edwardian era, which covered Edward's reign and was named after him, coincided with the start of a new century and heralded significant changes in technology and society, including steam turbine propulsion and the rise of socialism. He died in 1910 in the midst of a constitutional crisis that was resolved the following year by the Parliament Act 1911, which restricted the power of the unelected House of Lords."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "george_v_saxe_coburg_and_gotha",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1910/5/6",
+                "end": "1936/1/20"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "George V",
+                "aliases": [],
+                "it": "Giorgio V"
+            },
+            "house": "Saxe-Coburg and Gotha",
+            "born": "1865/6/3",
+            "died": "1936/1/20",
+            "inCharge": {
+                "start": "1910/5/6",
+                "end": "1936/1/20"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/George_V",
+                "contents": [
+                    {
+                        "line": "George V was King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936."
+                    },
+                    {
+                        "line": "Born during the reign of his grandmother Queen Victoria, George was the second son of Albert Edward, Prince of Wales, and was third in the line of succession to the British throne behind his father and elder brother, Prince Albert Victor. From 1877 to 1892, George served in the Royal Navy, until the unexpected death of his elder brother in early 1892 put him directly in line for the throne. On Victoria's death in 1901, George's father ascended the throne as Edward VII, and George was created Prince of Wales. He became king-emperor on his father's death in 1910."
+                    },
+                    {
+                        "line": "George's reign saw the rise of socialism, communism, fascism, Irish republicanism, and the Indian independence movement, all of which radically changed the political landscape of the British Empire. The Parliament Act 1911 established the supremacy of the elected British House of Commons over the unelected House of Lords. As a result of the First World War (1914–1918), the empires of his first cousins Nicholas II of Russia and Wilhelm II of Germany fell, while the British Empire expanded to its greatest effective extent. In 1917, he became the first monarch of the House of Windsor, which he renamed from the House of Saxe-Coburg and Gotha as a result of anti-German public sentiment. In 1924, George appointed the first Labour ministry and the 1931 Statute of Westminster recognised the Empire's dominions as separate, independent states within the British Commonwealth of Nations."
+                    },
+                    {
+                        "line": "He suffered from smoking-related health problems throughout much of his later reign, and at his death was succeeded by his eldest son, Edward VIII."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "edward_viii_windsor",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1936/1/20",
+                "end": "1936/12/11"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "Edward VIII",
+                "aliases": [],
+                "it": "Edoardo VIII"
+            },
+            "house": "windsor",
+            "born": "1894/6/23",
+            "died": "1972/5/28",
+            "inCharge": {
+                "start": "1936/1/20",
+                "end": "1936/12/11"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/Edward_VIII",
+                "contents": [
+                    {
+                        "line": "Edward VIII (Edward Albert Christian George Andrew Patrick David; 23 June 1894 – 28 May 1972) was King of the United Kingdom and the Dominions of the British Empire, and Emperor of India from 20 January 1936 until his abdication in December of the same year.[a]"
+                    },
+                    {
+                        "line": "Edward was born during the reign of his great-grandmother Queen Victoria as the eldest child of the Duke and Duchess of York, later King George V and Queen Mary. He was created Prince of Wales on his 16th birthday, seven weeks after his father succeeded as king. As a young man, Edward served in the British Army during the First World War and undertook several overseas tours on behalf of his father. While Prince of Wales, he engaged in a series of sexual affairs that worried both his father and then-British prime minister Stanley Baldwin."
+                    },
+                    {
+                        "line": "Upon his father's death in 1936, Edward became the second monarch of the House of Windsor. The new king showed impatience with court protocol, and caused concern among politicians by his apparent disregard for established constitutional conventions. Only months into his reign, a constitutional crisis was caused by his proposal to marry Wallis Simpson, an American who had divorced her first husband and was seeking a divorce from her second. The prime ministers of the United Kingdom and the Dominions opposed the marriage, arguing a divorced woman with two living ex-husbands was politically and socially unacceptable as a prospective queen consort. Additionally, such a marriage would have conflicted with Edward's status as titular head of the Church of England, which, at the time, disapproved of remarriage after divorce if a former spouse was still alive. Edward knew the Baldwin government would resign if the marriage went ahead, which could have forced a general election and would have ruined his status as a politically neutral constitutional monarch. When it became apparent he could not marry Wallis and remain on the throne, he abdicated. He was succeeded by his younger brother, George VI. With a reign of 326 days, Edward is the shortest-reigning British monarch."
+                    },
+                    {
+                        "line": "After his abdication, Edward was created Duke of Windsor. He married Wallis in France on 3 June 1937, after her second divorce became final. Later that year, the couple toured Nazi Germany. During the Second World War, Edward was at first stationed with the British Military Mission to France, but after private accusations that he was a Nazi sympathiser, he was appointed Governor of the Bahamas. After the war, Edward spent the rest of his life in France. He and Wallis remained married until his death in 1972."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "george_vi_windsor",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1936/12/11",
+                "end": "1952/2/6"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "George VI",
+                "aliases": [],
+                "it": "Giorgio VI"
+            },
+            "house": "windsor",
+            "born": "1895/12/14",
+            "died": "1952/2/6",
+            "inCharge": {
+                "start": "1936/12/11",
+                "end": "1952/2/6"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/George_VI",
+                "contents": [
+                    {
+                        "line": "George VI was King of the United Kingdom and the Dominions of the British Commonwealth from 11 December 1936 until his death in 1952. He was concurrently the last Emperor of India until August 1947, when India gained independence."
+                    },
+                    {
+                        "line": "The future George VI was born in the reign of his great-grandmother Queen Victoria; he was named Albert at birth after his great-grandfather Albert, Prince Consort, and was known as \"Bertie\" to his family and close friends. His father ascended the throne as King George V in 1910. As the second son of the king, Albert was not expected to inherit the throne. He spent his early life in the shadow of his elder brother, Prince Edward, the heir apparent. Albert attended naval college as a teenager and served in the Royal Navy and Royal Air Force during the First World War. In 1920, he was made Duke of York. He married Lady Elizabeth Bowes-Lyon in 1923, and they had two daughters, Elizabeth and Margaret. In the mid-1920s, he engaged speech therapist Lionel Logue to treat his stammer, which he learned to manage to some degree. His elder brother ascended the throne as Edward VIII after their father died in 1936, but Edward abdicated later that year to marry the twice-divorced American socialite Wallis Simpson; Albert thereby became the third monarch of the House of Windsor, taking the regnal name George VI."
+                    },
+                    {
+                        "line": "In September 1939, the British Empire and most Commonwealth countries—but not Ireland—declared war on Nazi Germany. War with the Kingdom of Italy and the Empire of Japan followed in 1940 and 1941, respectively. George VI was seen as sharing the hardships of the common people and his popularity soared. Buckingham Palace was bombed during the Blitz while the King and Queen were there, and his younger brother the Duke of Kent was killed on active service. George became known as a symbol of British determination to win the war. Britain and its allies were victorious in 1945, but the British Empire declined. Ireland had largely broken away, followed by the independence of India and Pakistan in 1947. George relinquished the title of Emperor of India in June 1948 and instead adopted the new title of Head of the Commonwealth. He was beset by smoking-related health problems in the later years of his reign and died of a coronary thrombosis in 1952. He was succeeded by his elder daughter, Elizabeth II."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "elizabeth_ii_windsor",
+            "kind": "king",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1952/2/6"
+            },
+            "memberships": [],
+            "works": [],
+            "contents": [],
+            "title": {
+                "text": "Elizabeth II",
+                "aliases": [],
+                "it": "Elizabetta II"
+            },
+            "house": "windsor",
+            "born": "1926/4/21",
+            "inCharge": {
+                "start": "1952/2/6"
+            },
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/Elizabeth_II",
+                "contents": [
+                    {
+                        "line": "Elizabeth II is Queen of the United Kingdom and 14 other Commonwealth realms. Elizabeth was born in Mayfair, London, as the first child of the Duke and Duchess of York (later King George VI and Queen Elizabeth). Her father acceded to the throne in 1936 upon the abdication of his brother, King Edward VIII, making Elizabeth the heir presumptive. She was educated privately at home and began to undertake public duties during the Second World War, serving in the Auxiliary Territorial Service. In November 1947, she married Philip Mountbatten, a former prince of Greece and Denmark, and their marriage lasted 73 years until Philip's death in 2021. They had four children: Charles, Prince of Wales; Anne, Princess Royal; Prince Andrew, Duke of York; and Prince Edward, Earl of Wessex."
+                    },
+                    {
+                        "line": "When her father died in February 1952, Elizabeth—then 25 years old—became queen regnant of seven independent Commonwealth countries: the United Kingdom, Canada, Australia, New Zealand, South Africa, Pakistan, and Ceylon, as well as Head of the Commonwealth. Elizabeth has reigned as a constitutional monarch through major political changes such as the Troubles in Northern Ireland, devolution in the United Kingdom, the decolonisation of Africa, and the United Kingdom's accession to the European Communities and withdrawal from the European Union. The number of her realms has varied over time as territories have gained independence, and as some realms have become republics. Her many historic visits and meetings include state visits to the People's Republic of China in 1986, the Russian Federation in 1994, the Republic of Ireland in 2011, and visits to or from five popes."
+                    },
+                    {
+                        "line": "Significant events have included the Queen's coronation in 1953 and the celebrations of her Silver, Golden, Diamond and Platinum jubilees in 1977, 2002, 2012, and 2022 respectively. Elizabeth is the longest-lived and longest-reigning British monarch, the longest-serving female head of state, the oldest living and longest-reigning current monarch, and the oldest and longest-serving incumbent head of state. Elizabeth has faced occasional republican sentiment and press criticism of the royal family, particularly after the breakdown of her children's marriages, her annus horribilis in 1992, and the death in 1997 of her former daughter-in-law Diana, Princess of Wales. However, support for the monarchy in the United Kingdom has been and remains consistently high, as does her personal popularity."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pitt_il_vecchio",
+            "kind": "minister",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1766/7/30",
+                "end": "1768/10/14"
+            },
+            "memberships": [],
+            "works": [
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1766/7/30",
+                        "end": "1768/10/14"
+                    }
+                }
+            ],
+            "contents": [],
+            "title": {
+                "text": "Pitt il Vecchio",
+                "aliases": [],
+                "en": "Pitt the Elder"
+            },
+            "born": "1708/11/15",
+            "died": "1778/5/11",
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/William_Pitt,_1st_Earl_of_Chatham",
+                "contents": [
+                    {
+                        "line": "was a British statesman of the Whig group who served as Prime Minister of Great Britain in the middle of the 18th century. Historians call him Chatham or William Pitt the Elder to distinguish him from his son, William Pitt the Younger, who was also a prime minister. Pitt was also known as the Great Commoner, because of his long-standing refusal to accept a title until 1766."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pitt_il_giovane",
+            "kind": "minister",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1783/12/19",
+                "end": "1806/1/23"
+            },
+            "memberships": [],
+            "works": [
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1783/12/19",
+                        "end": "1801/3/14"
+                    }
+                },
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1804/5/10",
+                        "end": "1806/1/23"
+                    }
+                }
+            ],
+            "contents": [],
+            "title": {
+                "text": "Pitt il Giovane",
+                "aliases": [],
+                "en": "Pitt the Younger"
+            },
+            "born": "1759/5/28",
+            "died": "1806/1/23",
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/William_Pitt_the_Younger",
+                "contents": [
+                    {
+                        "line": "was a prominent Tory statesman of the late eighteenth and early nineteenth centuries. He became the youngest prime minister of Great Britain in 1783 at the age of 24 and the first prime minister of the United Kingdom of Great Britain and Ireland as of January 1801. He left office in March 1801, but served as prime minister again from 1804 until his death in 1806. He was also Chancellor of the Exchequer for all of his time as prime minister. He is known as \"Pitt the Younger\" to distinguish him from his father, William Pitt, 1st Earl of Chatham, who had previously served as prime minister, and is referred to as \"William Pitt the Elder\" (or \"Chatham\" by historians)."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "palmerston",
+            "kind": "minister",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1830",
+                "end": "1865"
+            },
+            "memberships": [
+                {
+                    "kind": "party",
+                    "name": "Whigs",
+                    "date": {
+                        "start": "Whigs"
+                    }
+                }
+            ],
+            "works": [
+                {
+                    "kind": "createDate-secretary",
+                    "date": {
+                        "start": "1830",
+                        "end": "1841"
+                    }
+                },
+                {
+                    "kind": "createDate-secretary",
+                    "date": {
+                        "start": "1846",
+                        "end": "1851"
+                    }
+                },
+                {
+                    "kind": "home-secretary",
+                    "date": {
+                        "start": "1852",
+                        "end": "1855"
+                    }
+                },
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1855",
+                        "end": "1858"
+                    }
+                },
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1859",
+                        "end": "1865"
+                    }
+                }
+            ],
+            "contents": [],
+            "title": {
+                "text": "Henry John Temple, 3rd Viscount Palmerston",
+                "aliases": []
+            },
+            "born": "1784/10/20",
+            "died": "1865/10/18",
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/Henry_John_Temple,_3rd_Viscount_Palmerston",
+                "contents": [
+                    {
+                        "line": "was a British statesman who was twice Prime Minister of the United Kingdom in the mid-19th century. Palmerston dominated British foreign policy during the period 1830 to 1865, when Britain stood at the height of its imperial power. He held office almost continuously from 1807 until his death in 1865. He began his parliamentary career as a Tory, defected to the Whigs in 1830, and became the first prime minister from the newly formed Liberal Party in 1859. He was highly popular with the British public. David Brown argues that \"an important part of Palmerston's appeal lay in his dynamism and vigour\"."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "peel_robert",
+            "kind": "minister",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1834",
+                "end": "1846"
+            },
+            "memberships": [],
+            "works": [
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1834",
+                        "end": "1835"
+                    }
+                },
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1841",
+                        "end": "1846"
+                    }
+                }
+            ],
+            "contents": [],
+            "title": {
+                "text": "Robert Peel",
+                "aliases": []
+            },
+            "born": "1788/2/5",
+            "died": "1850/7/2",
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/Robert_Peel",
+                "contents": [
+                    {
+                        "line": "was a British Conservative statesman who served twice as Prime Minister of the United Kingdom (1834 - 1835 and 1841 - 1846) simultaneously serving as Chancellor of the Exchequer (1834 - 1835) and twice as Home Secretary (1822 - 1827 and 1828 - 1830). He is regarded as the father of modern British policing, owing to his founding of the Metropolitan Police Service. Peel was one of the founders of the modern Conservative Party."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "russel_john",
+            "kind": "minister",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1846",
+                "end": "1866"
+            },
+            "memberships": [
+                {
+                    "kind": "party",
+                    "name": "Whigs",
+                    "date": {
+                        "start": "Whigs"
+                    }
+                }
+            ],
+            "works": [
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1846",
+                        "end": "1852"
+                    }
+                },
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1865",
+                        "end": "1866"
+                    }
+                }
+            ],
+            "contents": [],
+            "title": {
+                "text": "John Russell, primo conte di Russell",
+                "aliases": []
+            },
+            "born": "1792/8/18",
+            "died": "1878/5/28",
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/Earl_Russell",
+                "contents": [
+                    {
+                        "line": "è stato un politico inglese. Facente parte del Partito Liberale, è stato primo ministro del Regno Unito due volte: dal 30 giugno 1846 al 23 febbraio 1852 e dal 29 ottobre 1865 al 18 giugno 1866. John Russell fu il nonno del famoso filosofo, matematico e logico Bertrand Russell."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "disraeli",
+            "kind": "minister",
+            "ns": "states.great_britain",
+            "date": {
+                "start": "1852/2/27",
+                "end": "1880/4/21"
+            },
+            "memberships": [],
+            "works": [
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1874/2/20",
+                        "end": "1880/4/21"
+                    }
+                },
+                {
+                    "kind": "prime-minister",
+                    "date": {
+                        "start": "1868/2/27",
+                        "end": "1868/12/1"
+                    }
+                },
+                {
+                    "kind": "exchequer",
+                    "date": {
+                        "start": "1866/7/6",
+                        "end": "1868/2/29"
+                    }
+                },
+                {
+                    "kind": "exchequer",
+                    "date": {
+                        "start": "1858/2/26",
+                        "end": "1859/6/11"
+                    }
+                },
+                {
+                    "kind": "exchequer",
+                    "date": {
+                        "start": "1852/2/27",
+                        "end": "1852/12/17"
+                    }
+                }
+            ],
+            "contents": [],
+            "title": {
+                "text": "Benjamin Disraeli, 1st Earl of Beaconsfield",
+                "aliases": []
+            },
+            "born": "1804/12/21",
+            "died": "1881/4/19",
+            "wiki": {
+                "url": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
+                "contents": [
+                    {
+                        "line": "was a British statesman and Conservative politician who twice served as Prime Minister of the United Kingdom. He played a central role in the creation of the modern Conservative Party, defining its policies and its broad outreach. Disraeli is remembered for his influential voice in world affairs, his political battles with the Liberal Party leader William Ewart Gladstone, and his one-nation conservatism or \"Tory democracy\". He made the Conservatives the party most identified with the British Empire, and military action to expand it, both of which were popular among British voters. He is the only British prime minister to have been of Jewish origin. He was also a novelist, publishing works of fiction even as prime minister."
                     }
                 ]
             }
@@ -5889,5 +6579,6 @@
         }
     ],
     "unknown_tag_jusSystem": "diritto comune",
-    "unknown_tag_jusActType": "royal_charter_of_rights"
+    "unknown_tag_jusActType": "royal_charter_of_rights",
+    "unknown_tag_primeMinister": "gladstone"
 }

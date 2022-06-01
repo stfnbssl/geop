@@ -1,7 +1,7 @@
 <!--
     artifact generator: C:\My\wizzi\stfnbssl\geop\node_modules\wizzi-web\lib\artifacts\html\document\gen\main.js
     package: wizzi-web@0.7.9
-    primary source IttfDocument: C:\My\wizzi\stfnbssl\geop\packages\history\.wizzi\docs\anteprima.html.ittf
+    primary source IttfDocument: C:\My\wizzi\stfnbssl\geop\packages\history\.wizzi\app\history_gb.html.ittf
 -->
 <!doctype html>
 <html lang="en" dir="ltr">
@@ -517,8 +517,8 @@
             Zoom
          } = MaterialUI;
         const g_appTitle = "History";
-        const g_dbTitle = "First";
-        const g_jsondataFileName = "first.geop.extended.json";
+        const g_dbTitle = "GB";
+        const g_jsondataFileName = "history_gb.geop.extended.json";
         const g_allViews = [
             'Periods', 
             'Alliances', 
@@ -612,6 +612,19 @@
                 else {
                     title = title + ' (' + date + ')';
                 }
+            }
+            return title;
+        }
+        function extractPersonTitle(item) {
+            var title = extractTitle(item);
+            if (item.kind == 'king') {
+                title = 'King ' + title;
+            }
+            else if (item.kind == 'pretender') {
+                title = 'Pretender ' + title;
+            }
+            else if (item.kind == 'minister') {
+                title = 'Minister ' + title;
             }
             return title;
         }
@@ -2488,7 +2501,7 @@
                         function PersonListItem(props) {
                             const {item, onClick, classes} = props;
                             const {id} = item;
-                            const title = extractTitle(item);
+                            const title = extractPersonTitle(item);
                             // log 'PersonListItem', title, id, item
                             return  (
                                     <div onClick={event => 
